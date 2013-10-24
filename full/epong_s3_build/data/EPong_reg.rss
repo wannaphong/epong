@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) 2011 Nokia Corporation.
+ */
+
+/*
+============================================================================
+ Name		: EPong.rss
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This file contains the application registration resource.
+============================================================================
+*/
+
+#include "EPong.hrh"
+#include "EPong.rls"
+#include <appinfo.rh>
+
+#ifdef TRIAL_VERSION
+#include <EPong_0xE003AF4F.rsg>
+#else
+#include <EPong_0x2003AF4F.rsg>
+#endif
+
+UID2 KUidAppRegistrationResourceFile
+UID3 _UID3
+
+RESOURCE APP_REGISTRATION_INFO
+	{
+	app_file=qtn_loc_exe;
+	localisable_resource_file =  "\\resource\\apps\\" qtn_loc_resource_file;
+	localisable_resource_id = R_LOCALISABLE_APP_INFO;
+
+	embeddability=KAppNotEmbeddable;
+	newfile=KAppDoesNotSupportNewFile;
+	}
+

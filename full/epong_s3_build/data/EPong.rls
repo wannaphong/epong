@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2011 Nokia Corporation.
+ */
+
+/*
+============================================================================
+ Name		: EPong.rls
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This is a localisation file for EPong
+				A .rls file is the one and only place where the logical
+				strings to be localised are defined. 
+============================================================================
+*/
+
+#include "..\inc\EPong.hrh"
+
+//  LOCALISATION STRINGS
+
+#ifdef TRIAL_VERSION
+#define qtn_loc_caption_string "EPong Lite"
+#define qtn_loc_exe "EPong_0xE003AF4F.exe"
+#define qtn_loc_icon_file "EPong_0xE003AF4F.mbm"
+#define qtn_loc_resource_file "EPong_0xE003AF4F"
+#define qtn_loc_resource_file_reg "EPong_0xE003AF4F_reg"
+#else
+#define qtn_loc_caption_string "EPong"
+#define qtn_loc_exe "EPong_0x2003AF4F.exe"
+#define qtn_loc_icon_file "EPong_0x2003AF4F.mbm"
+#define qtn_loc_resource_file "EPong_0x2003AF4F"
+#define qtn_loc_resource_file_reg "EPong_0x2003AF4F_reg"
+
+#endif
+
+
+#define qtn_loc_exit "Exit"
+
+// End of File

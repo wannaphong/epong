@@ -1,0 +1,257 @@
+/*
+ * Copyright (c) 2011 Nokia Corporation.
+ */
+
+/*
+============================================================================
+ Name  : EPong.mmp
+ Author   : 
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for EPong.
+============================================================================
+*/
+ 
+// TRIAL_VERSION (defined in EPong.hrh) results with compiling trial version with "buy now" link
+#include "../inc/EPong.hrh" 
+#include "../data/EPong.rls"
+
+// pass some header definitions as compile define options, so that the header does not have to be included everywhere
+#ifdef TRIAL_VERSION
+MACRO "TRIAL_VERSION"
+#endif
+
+#ifdef USE_OGG
+MACRO "USE_OGG"
+#endif
+
+
+#ifdef USE_GOOM_MONITOR
+MACRO "USE_GOOM_MONITOR"
+#endif
+ 
+#ifdef IAP
+MACRO "IAP"
+#endif
+
+MACRO "USE_GLES20"
+
+APP_LAYER_SYSTEMINCLUDE
+
+// exe name depends on the header definition
+TARGET   qtn_loc_exe
+TARGETTYPE  exe
+UID    0x100039CE _UID3
+SECUREID    _UID3
+
+
+EPOCSTACKSIZE		0x14000
+EPOCHEAPSIZE		0x020000 0x800000
+ 
+// use ARM VFP commands to build
+ARMFPU vfpv2
+ALWAYS_BUILD_AS_ARM
+OPTION gcce -march=armv6
+OPTION gcce -mfpu=vfp 
+OPTION gcce -funsafe-math-optimizations
+OPTION gcce -mfloat-abi=softfp 
+OPTION gcce -fpermissive
+
+// generic, platform independent engine api
+SOURCEPATH  ..\..\game_engine
+SOURCE GameApp.cpp
+SOURCE GameEngine.cpp
+SOURCE AudioBuffer.cpp AudioInterfaces.cpp
+SOURCE audiosourceif.cpp
+
+// symbian specific engine implementation
+SOURCEPATH  ..\src
+SOURCE EPong.cpp
+SOURCE EPongApplication.cpp
+SOURCE EPongAppUi.cpp
+SOURCE EPongDocument.cpp
+SOURCE EpocGameEngine.cpp
+SOURCE stb_image.c
+SOURCE memprofile.cpp
+SOURCE HdmiOutput.cpp
+
+#ifdef IAP
+SOURCEPATH  ..\..\epong_iap_impl
+SOURCE miniiapinterface.cpp
+SOURCE miniiapclientapi.cpp
+SOURCE miniiapsymbianclient.cpp
+
+SOURCEPATH  ..\..\epong_iap_impl\Symbian
+SOURCE drmfile_native_symbian.cpp
+SOURCE symbianclientapihelper.cpp
+#endif
+
+// actual game source files
+SOURCEPATH ..\..\epong_game_logic
+SOURCE PongApp.cpp
+SOURCE PongGame.cpp
+SOURCE PongObject.cpp
+SOURCE ParticleEngine.cpp
+SOURCE FontWriter.cpp
+SOURCE GameMenu.cpp
+SOURCE PongBackground.cpp
+SOURCE PongHighScores.cpp
+SOURCE PongCredits.cpp
+SOURCE MusicPlayer.cpp
+#ifdef USE_OGG
+SOURCE stb_vorbis.c 
+#endif
+
+// spritebatch api
+SOURCEPATH ..\..\spritebatchqt\src_gles2spritebatch
+SOURCE GLES2SpriteBatch.cpp
+SOURCEPATH ..\..\spritebatchqt\src_general
+SOURCE SpriteBatch.cpp
+
+
+
+
+USERINCLUDE    ..\..\game_engine
+USERINCLUDE    ..\..\epong_game_logic
+USERINCLUDE    ..\..\spritebatchqt\src_gles2spritebatch
+USERINCLUDE    ..\..\spritebatchqt\src_general
+USERINCLUDE    ..\inc
+#ifdef IAP
+USERINCLUDE    ..\..\epong_iap_impl
+USERINCLUDE    ..\..\epong_iap_impl\Symbian
+#endif
+SYSTEMINCLUDE  \epoc32\include
+SYSTEMINCLUDE  \epoc32\include\stdapis
+
+
+
+SOURCEPATH  ..\data
+
+// bitmap icon
+START BITMAP qtn_loc_icon_file
+TARGETPATH \Resource\Apps
+SOURCE c24,8 ..\gfx\icon.bmp ..\gfx\icon-alpha.bmp 
+END
+
+// resource file containing application name
+START RESOURCE EPong.rss
+HEADER
+TARGET qtn_loc_resource_file
+TARGETPATH resource\apps
+END //RESOURCE
+
+// resource file for application icon
+START RESOURCE EPong_reg.rss
+TARGET qtn_loc_resource_file_reg
+TARGETPATH    \private\10003a3f\apps
+END //RESOURCE
+
+LIBRARY euser.lib
+LIBRARY apparc.lib
+LIBRARY cone.lib
+LIBRARY eikcore.lib
+LIBRARY avkon.lib
+LIBRARY commonengine.lib
+LIBRARY efsrv.lib 
+LIBRARY estor.lib
+LIBRARY aknnotify.lib
+LIBRARY hlplch.lib
+
+#ifdef IAP
+// Try these libraries for IAP... Hopefully they will work.
+LIBRARY		caf.lib
+LIBRARY		cafutils.lib
+LIBRARY		iapsymbianclientapi.lib
+//STATICLIBRARY	usrt2_2.lib
+#endif
+
+LIBRARY ws32.lib gdi.lib
+
+//CFbsBitmap
+LIBRARY fbscli.lib
+
+// opengl
+LIBRARY libglesv2.lib libegl.lib 
+
+// utf8
+LIBRARY charconv.lib convnames.lib gb2312_shared.lib jisx0201.lib jisx0208.lib
+
+// haptic feedback
+LIBRARY touchfeedback.lib 
+
+// volume keys
+LIBRARY remconcoreapi.lib remconinterfacebase.lib
+
+// repository (profile access)
+LIBRARY centralrepository.lib
+
+// stdlib
+LIBRARY libc.lib
+
+// math
+LIBRARY libm.lib 
+
+// used in engine for opening html document
+LIBRARY commonui.lib 
+LIBRARY apmime.lib      
+
+// audio
+LIBRARY mmfdevsound.lib 
+LIBRARY mmfserverbaseclasses.lib
+
+// sensor framework
+LIBRARY SensrvClient.lib 
+LIBRARY sensrvutil.lib
+
+// CAccMonitor API
+LIBRARY accmonitor.lib
+
+#ifdef USE_GOOM_MONITOR
+// GOOM graphics resource monitor
+LIBRARY goommonitor.lib
+#endif 
+
+
+LANG SC
+
+VENDORID 0
+#ifdef IAP
+CAPABILITY NetworkServices
+#else
+CAPABILITY 0
+#endif
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+// End of File
+
+SOURCEPATH ..\..\epong_game_logic
+SOURCE meegoswipe.cpp
+
+
+OPTION CW -cwd include -wchar_t on
+OPTION ARMCC --visibility_inlines_hidden --fpmode fast
+#if defined(ARMCC_4_0)
+OPTION ARMCC --import_all_vtbl
+#endif
+OPTION GCCE -fvisibility-inlines-hidden 
+
+VERSION 10.0
+
+//ARMFPU softvfp+vfpv2
+
+BYTEPAIRCOMPRESSTARGET
+
+OPTION_REPLACE ARMCC --export_all_vtbl // don't use --export_all_vtbl
+
+OPTION gcce -march=armv6
+
+OPTION gcce -mfpu=vfp
+
+OPTION gcce -mfloat-abi=softfp
+
+OPTION gcce -marm
+
+UNPAGED
+
+STDCPP

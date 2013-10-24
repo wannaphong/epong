@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="font.png">../epong_graphics/font.png</file>
+        <file alias="ball_64x64.png">../epong_graphics/ball_64x64.png</file>
+        <file alias="stick_red_64x256.png">../epong_graphics/stick_red_64x256.png</file>
+        <file alias="stick_blue_64x256.png">../epong_graphics/stick_blue_64x256.png</file>
+        <file alias="background_space1.png">../epong_graphics/background_space1.png</file>
+        <file alias="background_space2.png">../epong_graphics/background_space2.png</file>
+        <file alias="planet_small.png">../epong_graphics/planet_small.png</file>
+        <file alias="planet_big.png">../epong_graphics/planet_big.png</file>
+        <file alias="control_button.png">../epong_graphics/control_button.png</file>
+        <file alias="top_bar.png">../epong_graphics/top_bar.png</file>
+        <file alias="ball_shine.png">../epong_graphics/ball_shine.png</file>
+        <file alias="orange_theme/orange_planet_512x512.png">../epong_graphics/orange_theme/orange_planet_512x512.png</file>
+        <file alias="orange_theme/orange_bg_mountain.png">../epong_graphics/orange_theme/orange_bg_mountain.png</file>
+        <file alias="orange_theme/orange_bg_space.png">../epong_graphics/orange_theme/orange_bg_space.png</file>
+        <file alias="gray_theme/gray_planet1_512x512.png">../epong_graphics/gray_theme/gray_planet1_512x512.png</file>
+        <file alias="gray_theme/gray_bg_space.png">../epong_graphics/gray_theme/gray_bg_space.png</file>
+        <file alias="13865__adcbicycle__13.wav">../epong_sounds/13865__adcbicycle__13.wav</file>
+        <file alias="34141__ERH__swell_pad.ogg">../epong_sounds/34141__ERH__swell_pad.ogg</file>
+        <file alias="ballpong.wav">../epong_sounds/ballpong.wav</file>
+        <file alias="gameover.wav">../epong_sounds/gameover.wav</file>
+        <file alias="level_completed.wav">../epong_sounds/level_completed.wav</file>
+        <file alias="menuclick.wav">../epong_sounds/menuclick.wav</file>
+        <file alias="shorttick.wav">../epong_sounds/shorttick.wav</file>
+        <file>qml/default.png</file>
+        <file>qml/splash.qml</file>
+        <file>qml/splashvideo.qml</file>
+        <file>qml/qtepong64.png</file>
+    </qresource>
+</RCC>

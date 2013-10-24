@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>font.png</file>
+        <file>ball_64x64.png</file>
+        <file>stick_red_64x256.png</file>
+        <file>stick_blue_64x256.png</file>
+        <file>background_space1.png</file>
+        <file>background_space2.png</file>
+        <file>planet_small.png</file>
+        <file>planet_big.png</file>
+        <file>control_button.png</file>
+        <file>top_bar.png</file>
+        <file>ball_shine.png</file>
+        <file>orange_planet_512x512.png</file>
+        <file>orange_bg_mountain.png</file>
+        <file>orange_bg_space.png</file>
+        <file>gray_planet1_512x512.png</file>
+        <file>gray_bg_space.png</file>
+
+
+        <file alias="13865__adcbicycle__13.wav">../epong_sounds/13865__adcbicycle__13.wav</file>
+        <file alias="34141__ERH__swell_pad.ogg">../epong_sounds/34141__ERH__swell_pad.ogg</file>
+        <file alias="ballpong.wav">../epong_sounds/ballpong.wav</file>
+        <file alias="gameover.wav">../epong_sounds/gameover.wav</file>
+        <file alias="level_completed.wav">../epong_sounds/level_completed.wav</file>
+        <file alias="menuclick.wav">../epong_sounds/menuclick.wav</file>
+        <file alias="shorttick.wav">../epong_sounds/shorttick.wav</file>
+    </qresource>
+</RCC>

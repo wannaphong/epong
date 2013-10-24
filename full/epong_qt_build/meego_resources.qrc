@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>meego_swipe.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,66 @@
+; Installation file for EPong application
+;
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), gcce, urel
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"EPong"},(0xE003AF4F),1,1,0
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Vendor"
+
+;Supports Symbian^3
+[0x20022E6D], 0, 0, 0, {"Series60ProductID"}
+
+; Has dependency on IAP component
+(0x200345C8), 0, 1, 1, {"IAP"}
+
+;Files to install
+;You should change the source paths to match that of your environment
+;<source> <destination>
+"$(EPOCROOT)Epoc32/release/$(PLATFORM)/$(TARGET)/EPong_0xE003AF4F.exe"-"!:\sys\bin\EPong_0xE003AF4F.exe"
+"$(EPOCROOT)Epoc32/data/z/resource/apps/EPong_0xE003AF4F.rsc"-"!:\resource\apps\EPong_0xE003AF4F.rsc"
+"$(EPOCROOT)Epoc32/data/z/private/10003a3f/apps/EPong_0xE003AF4F_reg.rsc"-"!:\private\10003a3f\import\apps\EPong_0xE003AF4F_reg.rsc"
+"$(EPOCROOT)Epoc32/data/z/resource/apps/EPong_0xE003AF4F.mbm" -"!:\resource\apps\EPong_0xE003AF4F.mbm"
+
+; game graphics stored into applications \private\uid\ directory
+; uid should match the exe's uid (_UID3 in include)
+"../../epong_graphics/font.png"-"!:\private\E003AF4F\font.png"
+"../../epong_graphics/background_space1.png"-"!:\private\E003AF4F\background_space1.png"
+"../../epong_graphics/background_space2.png"-"!:\private\E003AF4F\background_space2.png"
+"../../epong_graphics/ball_64x64.png"-"!:\private\E003AF4F\ball_64x64.png"
+"../../epong_graphics/planet_big.png"-"!:\private\E003AF4F\planet_big.png"
+"../../epong_graphics/planet_small.png"-"!:\private\E003AF4F\planet_small.png"
+"../../epong_graphics/stick_blue_64x256.png"-"!:\private\E003AF4F\stick_blue_64x256.png"
+"../../epong_graphics/stick_red_64x256.png"-"!:\private\E003AF4F\stick_red_64x256.png"
+"../../epong_graphics/top_bar.png"-"!:\private\E003AF4F\top_bar.png"
+"../../epong_graphics/control_button.png"-"!:\private\E003AF4F\control_button.png"
+"../../epong_graphics/ball_shine.png"-"!:\private\E003AF4F\ball_shine.png"
+
+"../../epong_graphics/default.png"-"!:\private\E003AF4F\default.png"
+ 
+; game sounds
+"../../epong_sounds/34141__ERH__swell_pad.ogg"-"!:\private\E003AF4F\34141__ERH__swell_pad.ogg"
+"../../epong_sounds/ballpong.wav"-"!:\private\E003AF4F\ballpong.wav"
+"../../epong_sounds/gameover.wav"-"!:\private\E003AF4F\gameover.wav"
+"../../epong_sounds/menuclick.wav"-"!:\private\E003AF4F\menuclick.wav"
+"../../epong_sounds/menuclick.wav"-"!:\private\E003AF4F\menuclick.wav"
+"../../epong_sounds/level_completed.wav"-"!:\private\E003AF4F\level_completed.wav"
+
+; required for application to be covered by backup/restore facility 
+"../sis/backup_registration.xml"-"!:\private\E003AF4F\backup_registration.xml"
+
+;required for IAP, uncomment the following lines when IAP is used
+; "../../epong_iap_impl/Data/IAP_VARIANTID.txt"-"!:\private\E003AF4F\IAP_VARIANTID.txt"
+; "../../epong_iap_impl/Data/TEST_MODE.txt"-"!:\private\E003AF4F\TEST_MODE.txt"
+; "../../epong_iap_impl/Data/2player.dat"-"!:\private\E003AF4F\drm\data\resourceid_642613\2player.dat"
+

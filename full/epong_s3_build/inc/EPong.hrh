@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2011 Nokia Corporation.
+ */
+
+/*
+ ============================================================================
+ Name		: EPong.hrh
+ Author	  : 
+ Description : This file contains declarations for constants of EPong.
+ The file can be included in C++ or resource file.
+ ============================================================================
+ */
+#ifndef __EPong_HRH__
+#define __EPong_HRH__
+
+// option defines
+
+#ifndef USE_OGG
+#define USE_OGG
+#endif
+
+#ifndef TRIAL_VERSION
+// comment out #define to build "full version", make sure to make sis package using epong_full.pkg
+#define TRIAL_VERSION
+#endif
+
+
+#ifndef USE_GOOM_MONITOR
+// to use GOOM API, copy goomapi directories to sdk epoc32 directory 
+//#define USE_GOOM_MONITOR
+#endif
+
+// -------------------------------
+
+#ifdef TRIAL_VERSION
+#define _UID3 0xE003AF4F
+#else
+#define _UID3 0x2003AF4F
+#endif
+
+#ifndef IAP
+// define IAP only if TRIAL_VERSION is made.
+// Uncomment the following line to build IAP version.
+// Also, uncomment the corresponding lines in the pkg files.
+//#define IAP
+#endif
+
+#endif // __EPong_HRH__

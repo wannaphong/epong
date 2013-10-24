@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2011 Nokia Corporation.
+ */
+
+/*
+============================================================================
+ Name		: bld.inf
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This file provides the information required for building the
+				whole of a EPong.
+============================================================================
+*/
+
+
+PRJ_PLATFORMS
+GCCE
+
+PRJ_MMPFILES
+EPong.mmp

@@ -1,0 +1,1263 @@
+ARM Linker, RVCT2.2 [Build 616]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomIdletimerule.cpp 0x00000000   Number         0  goomIdletimerule.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomaction.cpp 0x00000000   Number         0  goomaction.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomactionconfig.cpp 0x00000000   Number         0  goomactionconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomactionlist.cpp 0x00000000   Number         0  goomactionlist.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomactionref.cpp 0x00000000   Number         0  goomactionref.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomappclosetimer.cpp 0x00000000   Number         0  goomappclosetimer.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomappclosewatcher.cpp 0x00000000   Number         0  goomappclosewatcher.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomapplicationconfig.cpp 0x00000000   Number         0  goomapplicationconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomcloseapp.cpp 0x00000000   Number         0  goomcloseapp.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomcloseappconfig.cpp 0x00000000   Number         0  goomcloseappconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomconfig.cpp 0x00000000   Number         0  goomconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomconfigparser.cpp 0x00000000   Number         0  goomconfigparser.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomforegroundrule.cpp 0x00000000   Number         0  goomforegroundrule.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomglobalconfig.cpp 0x00000000   Number         0  goomglobalconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomlog.cpp 0x00000000   Number         0  goomlog.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommemorymonitor.cpp 0x00000000   Number         0  goommemorymonitor.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommemorymonitorserver.cpp 0x00000000   Number         0  goommemorymonitorserver.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommemorymonitorsession.cpp 0x00000000   Number         0  goommemorymonitorsession.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommonitor.cpp 0x00000000   Number         0  goommonitor.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommonitorplugin.cpp 0x00000000   Number         0  goommonitorplugin.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goommonitorsession.cpp 0x00000000   Number         0  goommonitorsession.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goompanic.cpp 0x00000000   Number         0  goompanic.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goompluginwaiter.cpp 0x00000000   Number         0  goompluginwaiter.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomrunplugin.cpp 0x00000000   Number         0  goomrunplugin.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomrunpluginconfig.cpp 0x00000000   Number         0  goomrunpluginconfig.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomwindowgrouplist.cpp 0x00000000   Number         0  goomwindowgrouplist.o ABSOLUTE
+    M:\sf\mw\uiaccelerator\uiacceltk\hitchcock\goommonitor\src\goomwserveventreceiver.cpp 0x00000000   Number         0  goomwserveventreceiver.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\up_dll_tls.cpp 0x00000000   Number         0  up_dll_tls.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000085fc   Section      104  goomIdletimerule.o(.text)
+    .text                                    0x00008664   Section       48  goomaction.o(.text)
+    .text                                    0x00008694   Section      216  goomactionconfig.o(.text)
+    .text                                    0x0000876c   Section     1744  goomactionlist.o(.text)
+    .text                                    0x00008e3c   Section       60  goomactionref.o(.text)
+    .text                                    0x00008e78   Section       80  goomappclosetimer.o(.text)
+    .text                                    0x00008ec8   Section      252  goomappclosewatcher.o(.text)
+    .text                                    0x00008fc4   Section      128  goomapplicationconfig.o(.text)
+    .text                                    0x00009044   Section      308  goomcloseapp.o(.text)
+    .text                                    0x00009178   Section       76  goomcloseappconfig.o(.text)
+    .text                                    0x000091c4   Section      492  goomconfig.o(.text)
+    .text                                    0x000093b0   Section     2584  goomconfigparser.o(.text)
+    .text                                    0x00009dc8   Section       64  goomforegroundrule.o(.text)
+    .text                                    0x00009e08   Section       44  goomglobalconfig.o(.text)
+    .text                                    0x00009e34   Section     1452  goommemorymonitor.o(.text)
+    .text                                    0x0000a3e0   Section      236  goommemorymonitorserver.o(.text)
+    .text                                    0x0000a4cc   Section      620  goommemorymonitorsession.o(.text)
+    .text                                    0x0000a738   Section      444  goommonitor.o(.text)
+    .text                                    0x0000a8f4   Section      264  goommonitorplugin.o(.text)
+    .text                                    0x0000a9fc   Section      532  goommonitorsession.o(.text)
+    .text                                    0x0000ac10   Section       32  goompanic.o(.text)
+    .text                                    0x0000ac30   Section      108  goompluginwaiter.o(.text)
+    .text                                    0x0000ac9c   Section      236  goomrunplugin.o(.text)
+    .text                                    0x0000ad88   Section      100  goomrunpluginconfig.o(.text)
+    .text                                    0x0000adec   Section     1984  goomwindowgrouplist.o(.text)
+    .text                                    0x0000b5ac   Section      304  goomwserveventreceiver.o(.text)
+    .text                                    0x0000b6dc   Section       24  switch8.o(.text)
+    .text                                    0x0000b6f4   Section       60  uc_dll.o(.text)
+    .text                                    0x0000b730   Section       44  up_dll_tls.o(.text)
+    .text                                    0x0000b75c   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000b760   Section       20  goomactionconfig.o(.text.clean)
+    .text.clean                              0x0000b774   Section       30  goomactionlist.o(.text.clean)
+    .text.clean                              0x0000b792   Section       10  goomappclosetimer.o(.text.clean)
+    .text.clean                              0x0000b79c   Section       20  goomappclosewatcher.o(.text.clean)
+    .text.clean                              0x0000b7b0   Section       10  goomapplicationconfig.o(.text.clean)
+    .text.clean                              0x0000b7ba   Section       20  goomcloseapp.o(.text.clean)
+    .text.clean                              0x0000b7ce   Section       20  goomconfig.o(.text.clean)
+    .text.clean                              0x0000b7e2   Section       12  goomconfigparser.o(.text.clean)
+    .text.clean                              0x0000b7ee   Section       10  goomglobalconfig.o(.text.clean)
+    .text.clean                              0x0000b7f8   Section       28  goommemorymonitor.o(.text.clean)
+    .text.clean                              0x0000b814   Section       22  goommemorymonitorsession.o(.text.clean)
+    .text.clean                              0x0000b82a   Section       16  goommonitor.o(.text.clean)
+    .text.clean                              0x0000b83a   Section       10  goommonitorplugin.o(.text.clean)
+    .text.clean                              0x0000b844   Section       10  goompluginwaiter.o(.text.clean)
+    .text.clean                              0x0000b84e   Section       10  goomrunplugin.o(.text.clean)
+    .text.clean                              0x0000b858   Section       52  goomwindowgrouplist.o(.text.clean)
+    .text.clean                              0x0000b88c   Section       20  goomwserveventreceiver.o(.text.clean)
+    i._ZN11CGOomConfigC1Ev                   0x0000b8a0   Section      100  goomconfig.o(i._ZN11CGOomConfigC1Ev)
+    i._ZN11CGOomConfigC1Ev.clean             0x0000b904   Section       14  goomconfig.o(i._ZN11CGOomConfigC1Ev.clean)
+    i._ZN13CGOomCloseApp9IsRunningEv         0x0000b912   Section        4  goomcloseapp.o(i._ZN13CGOomCloseApp9IsRunningEv)
+    i._ZN14CGOomRunPlugin9IsRunningEv        0x0000b916   Section       10  goomrunplugin.o(i._ZN14CGOomRunPlugin9IsRunningEv)
+    i._ZN14CMemoryMonitor27SessionInCriticalAllocationEi 0x0000b920   Section       38  goommemorymonitorsession.o(i._ZN14CMemoryMonitor27SessionInCriticalAllocationEi)
+    i._ZN15CGOomActionList8ClientIdEv        0x0000b946   Section        6  goomactionlist.o(i._ZN15CGOomActionList8ClientIdEv)
+    i._ZN15CGOomPluginListI18CGOomMonitorPluginED0Ev 0x0000b94c   Section       16  goomactionlist.o(i._ZN15CGOomPluginListI18CGOomMonitorPluginED0Ev)
+    i._ZN16CSimpleSchedulerD0Ev              0x0000b95c   Section       16  goommonitor.o(i._ZN16CSimpleSchedulerD0Ev)
+    i._ZN16CSimpleSchedulerD1Ev              0x0000b96c   Section        8  goommonitor.o(i._ZN16CSimpleSchedulerD1Ev)
+    i._ZN17CGOomConfigParserD0Ev             0x0000b974   Section       16  goomconfigparser.o(i._ZN17CGOomConfigParserD0Ev)
+    i._ZN17CGOomConfigParserD1Ev             0x0000b984   Section        8  goomconfigparser.o(i._ZN17CGOomConfigParserD1Ev)
+    i._ZN17CGOomPluginWaiterD0Ev             0x0000b98c   Section       16  goompluginwaiter.o(i._ZN17CGOomPluginWaiterD0Ev)
+    i._ZN17CGOomPluginWaiterD1Ev             0x0000b99c   Section        8  goompluginwaiter.o(i._ZN17CGOomPluginWaiterD1Ev)
+    i._ZN18CGOomAppCloseTimerD0Ev            0x0000b9a4   Section       16  goomappclosetimer.o(i._ZN18CGOomAppCloseTimerD0Ev)
+    i._ZN18CGOomAppCloseTimerD1Ev            0x0000b9b4   Section        8  goomappclosetimer.o(i._ZN18CGOomAppCloseTimerD1Ev)
+    i._ZN19CGOomForegroundRuleD0Ev           0x0000b9bc   Section       16  goomforegroundrule.o(i._ZN19CGOomForegroundRuleD0Ev)
+    i._ZN19CGOomForegroundRuleD1Ev           0x0000b9cc   Section        8  goomforegroundrule.o(i._ZN19CGOomForegroundRuleD1Ev)
+    i._ZN21CAppGOomMonitorPluginD0Ev         0x0000b9d4   Section       16  goommonitorplugin.o(i._ZN21CAppGOomMonitorPluginD0Ev)
+    i._ZN21CAppGOomMonitorPluginD1Ev         0x0000b9e4   Section        8  goommonitorplugin.o(i._ZN21CAppGOomMonitorPluginD1Ev)
+    i._ZN21CGoomThresholdCrossed12SetThresholdEi 0x0000b9ec   Section       16  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed12SetThresholdEi)
+    i._ZN21CGoomThresholdCrossed15ResetThresholdsEv 0x0000b9fc   Section       24  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed15ResetThresholdsEv)
+    i._ZN21CGoomThresholdCrossed18StartRequestEventsEv 0x0000ba14   Section      268  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed18StartRequestEventsEv)
+    i._ZN21CGoomThresholdCrossed20RequestNotificationsEi 0x0000bb20   Section       56  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed20RequestNotificationsEi)
+    i._ZN21CGoomThresholdCrossed4RunLEv      0x0000bb58   Section       66  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed4RunLEv)
+    i._ZN21CGoomThresholdCrossed4RunLEv.clean 0x0000bb9a   Section        8  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed4RunLEv.clean)
+    i._ZN21CGoomThresholdCrossed4StopEv      0x0000bba2   Section       30  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed4StopEv)
+    i._ZN21CGoomThresholdCrossed7TriggerEi   0x0000bbc0   Section      124  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed7TriggerEi)
+    i._ZN21CGoomThresholdCrossed8ContinueEv  0x0000bc3c   Section       24  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed8ContinueEv)
+    i._ZN21CGoomThresholdCrossed8DoCancelEv  0x0000bc54   Section       12  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed8DoCancelEv)
+    i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji 0x0000bc60   Section      176  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji)
+    i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji.clean 0x0000bd10   Section       10  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji.clean)
+    i._ZN21CGoomThresholdCrossedD0Ev         0x0000bd1a   Section       16  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD0Ev)
+    i._ZN21CGoomThresholdCrossedD1Ev         0x0000bd2c   Section       52  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD1Ev)
+    i._ZN21CGoomThresholdCrossedD1Ev.clean   0x0000bd60   Section       10  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD1Ev.clean)
+    i._ZN5CBasenwEj                          0x0000bd6a   Section        8  goommonitor.o(i._ZN5CBasenwEj)
+    i._ZN5TLex8C1ERK6TDesC8                  0x0000bd72   Section       16  goomconfigparser.o(i._ZN5TLex8C1ERK6TDesC8)
+    i._ZNK12RMessagePtr26IsNullEv            0x0000bd82   Section       14  goommemorymonitorsession.o(i._ZNK12RMessagePtr26IsNullEv)
+    i._ZNK12RSessionBase11SendReceiveEiRK8TIpcArgs 0x0000bd90   Section        8  goommonitorsession.o(i._ZNK12RSessionBase11SendReceiveEiRK8TIpcArgs)
+    i._ZNK16CSimpleScheduler5ErrorEi         0x0000bd98   Section        2  goommonitor.o(i._ZNK16CSimpleScheduler5ErrorEi)
+    i._ZNK17CGOomIdleTimeRule8PriorityEv     0x0000bd9a   Section        4  goomIdletimerule.o(i._ZNK17CGOomIdleTimeRule8PriorityEv)
+    i._ZNK19CGOomForegroundRule8PriorityEv   0x0000bd9e   Section        4  goomforegroundrule.o(i._ZNK19CGOomForegroundRule8PriorityEv)
+    i._ZNK20CGOomWindowGroupList5CountEv     0x0000bda2   Section       10  goomactionlist.o(i._ZNK20CGOomWindowGroupList5CountEv)
+    i._ZNK6TDesC8eqERKS_                     0x0000bdac   Section       18  goomconfigparser.o(i._ZNK6TDesC8eqERKS_)
+    i._ZThn4_N15CGOomActionList8ClientIdEv   0x0000bdbe   Section        6  goomactionlist.o(i._ZThn4_N15CGOomActionList8ClientIdEv)
+    i._ZThn4_NK17CGOomIdleTimeRule8PriorityEv 0x0000bdc4   Section        4  goomIdletimerule.o(i._ZThn4_NK17CGOomIdleTimeRule8PriorityEv)
+    i._ZThn4_NK19CGOomForegroundRule8PriorityEv 0x0000bdc8   Section        4  goomforegroundrule.o(i._ZThn4_NK19CGOomForegroundRule8PriorityEv)
+    i._ZdlPvS_                               0x0000bdcc   Section        2  goomconfigparser.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000bdce   Section        4  goomconfigparser.o(i._ZnwjPv)
+    t._ZN12CleanupCloseI13RPointerArrayI26CImplementationInformationEE5CloseEPv 0x0000bdd2   Section        8  goomactionlist.o(t._ZN12CleanupCloseI13RPointerArrayI26CImplementationInformationEE5CloseEPv)
+    t._ZN12CleanupCloseI5RFileE5CloseEPv     0x0000bdda   Section        8  goomconfigparser.o(t._ZN12CleanupCloseI5RFileE5CloseEPv)
+    t._ZN15CGOomPluginListI18CGOomMonitorPluginE10ConstructLEi 0x0000bde4   Section      128  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE10ConstructLEi)
+    t._ZN15CGOomPluginListI18CGOomMonitorPluginE3UidEi 0x0000be64   Section       12  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE3UidEi)
+    t._ZN15CGOomPluginListI18CGOomMonitorPluginE5CountEv 0x0000be70   Section       10  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE5CountEv)
+    t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev 0x0000be7c   Section       64  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev)
+    t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev.clean 0x0000bebc   Section       10  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev.clean)
+    t._ZN6RArrayI10TActionRefEixEi           0x0000bec6   Section        8  goomactionlist.o(t._ZN6RArrayI10TActionRefEixEi)
+    t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEE8ReserveLEi 0x0000bece   Section       12  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEE8ReserveLEi)
+    t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEC1Ev 0x0000beda   Section       10  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEC1Ev)
+    t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEixEi 0x0000bee4   Section        8  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEixEi)
+    t._ZN6RArrayIN15CGOomPluginListI18CGOomMonitorPluginE7TPluginEEixEi 0x0000beec   Section        8  goomactionlist.o(t._ZN6RArrayIN15CGOomPluginListI18CGOomMonitorPluginE7TPluginEEixEi)
+    t._ZN8RHashMapIiN20CGOomWindowGroupList26TGOomWindowGroupPropertiesEE4FindERKi 0x0000bef4   Section       10  goomwindowgrouplist.o(t._ZN8RHashMapIiN20CGOomWindowGroupList26TGOomWindowGroupPropertiesEE4FindERKi)
+    t._ZN8RHashMapIlP20CGOomRunPluginConfigE4FindERKl 0x0000befe   Section       10  goomconfig.o(t._ZN8RHashMapIlP20CGOomRunPluginConfigE4FindERKl)
+    t._ZN8RHashMapIlP22CGOomApplicationConfigE4FindERKl 0x0000bf08   Section       10  goomconfig.o(t._ZN8RHashMapIlP22CGOomApplicationConfigE4FindERKl)
+    t._ZN8RHashMapIlP22CGOomApplicationConfigE7InsertLERKlRKS1_ 0x0000bf12   Section       22  goomconfig.o(t._ZN8RHashMapIlP22CGOomApplicationConfigE7InsertLERKlRKS1_)
+    t._ZNK6RArrayIN10RWsSession21TWindowGroupChainInfoEE5CountEv 0x0000bf28   Section        8  goomwindowgrouplist.o(t._ZNK6RArrayIN10RWsSession21TWindowGroupChainInfoEE5CountEv)
+    .extab._ZN17CGOomActionConfigD1Ev        0x0000bf30   Data           0  goomactionconfig.o(.ARM.extab)
+    .extab._ZN17CGOomActionConfigC1El        0x0000bf40   Data           0  goomactionconfig.o(.ARM.extab)
+    .extab._ZN15CGOomActionList10ConstructLER11CGOomConfig 0x0000bf50   Data           0  goomactionlist.o(.ARM.extab)
+    .extab._ZN15CGOomActionListC1ER14CMemoryMonitorR20CMemoryMonitorServerR10RWsSession 0x0000bf60   Data           0  goomactionlist.o(.ARM.extab)
+    .extab._ZN15CGOomActionListD1Ev          0x0000bf70   Data           0  goomactionlist.o(.ARM.extab)
+    .extab._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev 0x0000bf80   Data           0  goomactionlist.o(.ARM.extab)
+    .extab._ZN18CGOomAppCloseTimerC1ER13CGOomCloseApp 0x0000bf90   Data           0  goomappclosetimer.o(.ARM.extab)
+    .extab._ZN20CGOomAppCloseWatcherC1ER13CGOomCloseApp 0x0000bfa0   Data           0  goomappclosewatcher.o(.ARM.extab)
+    .extab._ZN20CGOomAppCloseWatcherD1Ev     0x0000bfb0   Data           0  goomappclosewatcher.o(.ARM.extab)
+    .extab._ZN22CGOomApplicationConfigD1Ev   0x0000bfc0   Data           0  goomapplicationconfig.o(.ARM.extab)
+    .extab._ZN13CGOomCloseAppC1ER19MGOomActionObserverR10RWsSession 0x0000bfd0   Data           0  goomcloseapp.o(.ARM.extab)
+    .extab._ZN13CGOomCloseAppD1Ev            0x0000bfe0   Data           0  goomcloseapp.o(.ARM.extab)
+    .extab._ZN11CGOomConfigD1Ev              0x0000bff0   Data           0  goomconfig.o(.ARM.extab)
+    .extab._ZN11CGOomConfigC1Ev              0x0000c008   Data           0  goomconfig.o(.ARM.extab)
+    .extab._ZN17CGOomConfigParser6ParseLEv   0x0000c020   Data           0  goomconfigparser.o(.ARM.extab)
+    .extab._ZN17CGOomConfigParser25GetValueFromAttributeListERK6RArrayIN3Xml10RAttributeEERK6TDesC8R6TPtrC8 0x0000c02c   Data           0  goomconfigparser.o(.ARM.extab)
+    .extab._ZN17CGOomGlobalConfigD1Ev        0x0000c03c   Data           0  goomglobalconfig.o(.ARM.extab)
+    .extab._ZN14CMemoryMonitor17RefreshThresholdsEi 0x0000c04c   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN14CMemoryMonitorC1Ev           0x0000c094   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN14CMemoryMonitorD1Ev           0x0000c0a4   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN21CGoomThresholdCrossedD1Ev    0x0000c0b4   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji 0x0000c0c4   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN21CGoomThresholdCrossed4RunLEv 0x0000c0d4   Data           0  goommemorymonitor.o(.ARM.extab)
+    .extab._ZN21CMemoryMonitorSessionD1Ev    0x0000c0fc   Data           0  goommemorymonitorsession.o(.ARM.extab)
+    .extab._ZN21CMemoryMonitorSession8ServiceLERK9RMessage2 0x0000c10c   Data           0  goommemorymonitorsession.o(.ARM.extab)
+    .extab._Z25GOOMWatcherThreadFunctionPv   0x0000c174   Data           0  goommonitor.o(.ARM.extab)
+    .extab._ZN5CBasenwEj                     0x0000c1a4   Data           0  goommonitor.o(.ARM.extab)
+    .extab._ZN22CGOomMonitorPluginBaseC2Ev   0x0000c1b4   Data           0  goommonitorplugin.o(.ARM.extab)
+    .extab._ZN17CGOomPluginWaiterC1EiR14CGOomRunPlugin 0x0000c1c4   Data           0  goompluginwaiter.o(.ARM.extab)
+    .extab._ZN14CGOomRunPluginD1Ev           0x0000c1d4   Data           0  goomrunplugin.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupListC1ER10RWsSession 0x0000c1e4   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupList7RefreshEv 0x0000c1f4   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupListD1Ev     0x0000c224   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupList15SetPriorityBusyEi 0x0000c234   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupList17SetPriorityNormalEi 0x0000c25c   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN20CGOomWindowGroupList15SetPriorityHighEi 0x0000c284   Data           0  goomwindowgrouplist.o(.ARM.extab)
+    .extab._ZN19CWservEventReceiverC1ER14CMemoryMonitorR10RWsSession 0x0000c2ac   Data           0  goomwserveventreceiver.o(.ARM.extab)
+    .extab._ZN19CWservEventReceiverD1Ev      0x0000c2bc   Data           0  goomwserveventreceiver.o(.ARM.extab)
+    .constdata$1                             0x0000c2cc   Data           0  goomconfigparser.o(.constdata)
+    KRomDrive                                0x0000c2cc   Data           8  goomconfigparser.o(.constdata)
+    .constdata                               0x0000c2cc   Section      868  goomconfigparser.o(.constdata)
+    KGOomConfigApp                           0x0000c2d4   Data           8  goomconfigparser.o(.constdata)
+    KGOomAttibuteUid                         0x0000c2dc   Data           8  goomconfigparser.o(.constdata)
+    KXmlMimeType                             0x0000c2e4   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigFilePath                      0x0000c2f4   Data          72  goomconfigparser.o(.constdata)
+    KGOomConfigGOomConfig                    0x0000c33c   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigGlobalSettings                0x0000c34c   Data          20  goomconfigparser.o(.constdata)
+    KGOomConfigForceCheckAtPriority          0x0000c360   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigAppSettings                   0x0000c370   Data          28  goomconfigparser.o(.constdata)
+    KGOomConfigAppCloseSettings              0x0000c38c   Data          24  goomconfigparser.o(.constdata)
+    KGOomConfigCloseApp                      0x0000c3a4   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigAppCloseIdlePriority          0x0000c3b4   Data          28  goomconfigparser.o(.constdata)
+    KGOomConfigForegroundAppPriority         0x0000c3d0   Data          28  goomconfigparser.o(.constdata)
+    KGOomAttributeLowRamThreshold            0x0000c3ec   Data          24  goomconfigparser.o(.constdata)
+    KGOomAttributeGoodRamThreshold           0x0000c404   Data          24  goomconfigparser.o(.constdata)
+    KGOomAttributeMaxAppCloseBatch           0x0000c41c   Data          24  goomconfigparser.o(.constdata)
+    KGOomAttributeDefaultWaitAfterPlugin     0x0000c434   Data          32  goomconfigparser.o(.constdata)
+    KGOomAttributeTargetFreeOnStartup        0x0000c454   Data          28  goomconfigparser.o(.constdata)
+    KGOomAttributeSystemPluginSettings       0x0000c470   Data          28  goomconfigparser.o(.constdata)
+    KGOomAttributeSystemPlugin               0x0000c48c   Data          20  goomconfigparser.o(.constdata)
+    KGOomAttributeAppPluginSettings          0x0000c4a0   Data          24  goomconfigparser.o(.constdata)
+    KGOomAttributeAppPlugin                  0x0000c4b8   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttributePluginIdlePriority         0x0000c4c8   Data          28  goomconfigparser.o(.constdata)
+    KGOomAttributePluginForegroundAppPriority 0x0000c4e4   Data          36  goomconfigparser.o(.constdata)
+    KGOomAttibuteSyncMode                    0x0000c508   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttibutePriority                    0x0000c518   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttibuteRamEstimate                 0x0000c528   Data          20  goomconfigparser.o(.constdata)
+    KGOomConfigSyncModeContinue              0x0000c53c   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigSyncModeCheck                 0x0000c54c   Data          12  goomconfigparser.o(.constdata)
+    KGOomConfigSyncModeEstimate              0x0000c558   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttibuteIdleTime                    0x0000c568   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttibuteIdlePriority                0x0000c578   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttibuteNeverClose                  0x0000c588   Data          16  goomconfigparser.o(.constdata)
+    KGOomAttributeTargetAppId                0x0000c598   Data          20  goomconfigparser.o(.constdata)
+    KGOomAttributeWait                       0x0000c5ac   Data          12  goomconfigparser.o(.constdata)
+    KGOomAttributeIfForegroundAppId          0x0000c5b8   Data          28  goomconfigparser.o(.constdata)
+    KGOomConfigDefaultAppUid                 0x0000c5d4   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigDefaultPluginUid              0x0000c5e4   Data          20  goomconfigparser.o(.constdata)
+    KGOomConfigTargetAppValue                0x0000c5f8   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigBusyAppUid                    0x0000c608   Data          16  goomconfigparser.o(.constdata)
+    KGOomConfigHighPriorityAppUid            0x0000c618   Data          24  goomconfigparser.o(.constdata)
+    .constdata$1                             0x0000c630   Data           0  goommemorymonitor.o(.constdata)
+    KGoomAsyncWaitThreadName                 0x0000c630   Data          24  goommemorymonitor.o(.constdata)
+    .constdata                               0x0000c630   Section      144  goommemorymonitor.o(.constdata)
+    .constdata$1                             0x0000c6c0   Data           0  goommemorymonitorserver.o(.constdata)
+    KGraphicsMemoryMonitorServerName         0x0000c6c0   Data          40  goommemorymonitorserver.o(.constdata)
+    .constdata                               0x0000c6c0   Section      376  goommemorymonitorserver.o(.constdata)
+    .constdata$1                             0x0000c838   Data           0  goommonitor.o(.constdata)
+    KGraphicsMemoryMonitorServerName         0x0000c838   Data          40  goommonitor.o(.constdata)
+    .constdata                               0x0000c838   Section      224  goommonitor.o(.constdata)
+    KGOOMWatcherThreadName                   0x0000c860   Data          20  goommonitor.o(.constdata)
+    .constdata$1                             0x0000c918   Data           0  goommonitorplugin.o(.constdata)
+    KCat@_Z22GOomMonitorPluginPanic23TGOomMonitorPluginPanic_0 0x0000c918   Data          40  goommonitorplugin.o(.constdata)
+    .constdata                               0x0000c918   Section      240  goommonitorplugin.o(.constdata)
+    .constdata$1                             0x0000ca08   Data           0  goommonitorsession.o(.constdata)
+    KGraphicsMemoryMonitorServerName         0x0000ca08   Data          40  goommonitorsession.o(.constdata)
+    .constdata                               0x0000ca08   Section       40  goommonitorsession.o(.constdata)
+    .constdata$1                             0x0000ca30   Data           0  goompanic.o(.constdata)
+    KCat@_Z16GOomMonitorPanic17TGOomMonitorPanic_0 0x0000ca30   Data          28  goompanic.o(.constdata)
+    .constdata                               0x0000ca30   Section       56  goompanic.o(.constdata)
+    KParserCat@_Z21GOomConfigParserPanici_0  0x0000ca4c   Data          28  goompanic.o(.constdata)
+    .constdata$1                             0x0000ca68   Data           0  goomwindowgrouplist.o(.constdata)
+    KDummyWgName                             0x0000ca68   Data          12  goomwindowgrouplist.o(.constdata)
+    .constdata                               0x0000ca68   Section       12  goomwindowgrouplist.o(.constdata)
+    .constdata$1                             0x0000ca74   Data           0  goomwserveventreceiver.o(.constdata)
+    KUidFastSwap                             0x0000ca74   Data           4  goomwserveventreceiver.o(.constdata)
+    .constdata                               0x0000ca74   Section        4  goomwserveventreceiver.o(.constdata)
+    .constdata__ZTI11CGOomAction             0x0000ca78   Section       12  goomaction.o(.constdata__ZTI11CGOomAction)
+    .constdata__ZTI11CGOomConfig             0x0000ca84   Section       12  goomconfig.o(.constdata__ZTI11CGOomConfig)
+    .constdata__ZTI13CGOomCloseApp           0x0000ca90   Section       12  goomcloseapp.o(.constdata__ZTI13CGOomCloseApp)
+    .constdata__ZTI14CGOomRunPlugin          0x0000ca9c   Section       12  goomrunplugin.o(.constdata__ZTI14CGOomRunPlugin)
+    .constdata__ZTI14CMemoryMonitor          0x0000caa8   Section       12  goommemorymonitor.o(.constdata__ZTI14CMemoryMonitor)
+    .constdata__ZTI15CGOomActionList         0x0000cab4   Section       32  goomactionlist.o(.constdata__ZTI15CGOomActionList)
+    .constdata__ZTI15CGOomPluginListI18CGOomMonitorPluginE 0x0000cad4   Section       12  goomactionlist.o(.constdata__ZTI15CGOomPluginListI18CGOomMonitorPluginE)
+    .constdata__ZTI15MGOomRuleConfig         0x0000cae0   Section        8  goomIdletimerule.o(.constdata__ZTI15MGOomRuleConfig)
+    .constdata__ZTI16CSimpleScheduler        0x0000cae8   Section       12  goommonitor.o(.constdata__ZTI16CSimpleScheduler)
+    .constdata__ZTI17CGOomActionConfig       0x0000caf4   Section       12  goomactionconfig.o(.constdata__ZTI17CGOomActionConfig)
+    .constdata__ZTI17CGOomConfigParser       0x0000cb00   Section       32  goomconfigparser.o(.constdata__ZTI17CGOomConfigParser)
+    .constdata__ZTI17CGOomGlobalConfig       0x0000cb20   Section       12  goomglobalconfig.o(.constdata__ZTI17CGOomGlobalConfig)
+    .constdata__ZTI17CGOomIdleTimeRule       0x0000cb2c   Section       32  goomIdletimerule.o(.constdata__ZTI17CGOomIdleTimeRule)
+    .constdata__ZTI17CGOomPluginWaiter       0x0000cb4c   Section       12  goompluginwaiter.o(.constdata__ZTI17CGOomPluginWaiter)
+    .constdata__ZTI18CGOomAppCloseTimer      0x0000cb58   Section       12  goomappclosetimer.o(.constdata__ZTI18CGOomAppCloseTimer)
+    .constdata__ZTI19CGOomCloseAppConfig     0x0000cb64   Section       12  goomcloseappconfig.o(.constdata__ZTI19CGOomCloseAppConfig)
+    .constdata__ZTI19CGOomForegroundRule     0x0000cb70   Section       32  goomforegroundrule.o(.constdata__ZTI19CGOomForegroundRule)
+    .constdata__ZTI19CWservEventReceiver     0x0000cb90   Section       12  goomwserveventreceiver.o(.constdata__ZTI19CWservEventReceiver)
+    .constdata__ZTI19MGOomActionObserver     0x0000cb9c   Section        8  goomactionlist.o(.constdata__ZTI19MGOomActionObserver)
+    .constdata__ZTI20CGOomAppCloseWatcher    0x0000cba4   Section       12  goomappclosewatcher.o(.constdata__ZTI20CGOomAppCloseWatcher)
+    .constdata__ZTI20CGOomRunPluginConfig    0x0000cbb0   Section       12  goomrunpluginconfig.o(.constdata__ZTI20CGOomRunPluginConfig)
+    .constdata__ZTI20CGOomWindowGroupList    0x0000cbbc   Section       12  goomwindowgrouplist.o(.constdata__ZTI20CGOomWindowGroupList)
+    .constdata__ZTI20CMemoryMonitorServer    0x0000cbc8   Section       12  goommemorymonitorserver.o(.constdata__ZTI20CMemoryMonitorServer)
+    .constdata__ZTI21CAppGOomMonitorPlugin   0x0000cbd4   Section       12  goommonitorplugin.o(.constdata__ZTI21CAppGOomMonitorPlugin)
+    .constdata__ZTI21CGoomThresholdCrossed   0x0000cbe0   Section       12  goommemorymonitor.o(.constdata__ZTI21CGoomThresholdCrossed)
+    .constdata__ZTI21CMemoryMonitorSession   0x0000cbec   Section       12  goommemorymonitorsession.o(.constdata__ZTI21CMemoryMonitorSession)
+    .constdata__ZTI22CGOomApplicationConfig  0x0000cbf8   Section       12  goomapplicationconfig.o(.constdata__ZTI22CGOomApplicationConfig)
+    .constdata__ZTI22CGOomMonitorPluginBase  0x0000cc04   Section       12  goommonitorplugin.o(.constdata__ZTI22CGOomMonitorPluginBase)
+    .constdata__ZTIN3Xml15MContentHandlerE   0x0000cc10   Section        8  goomconfigparser.o(.constdata__ZTIN3Xml15MContentHandlerE)
+    .constdata__ZTS11CGOomAction             0x0000cc18   Section       14  goomaction.o(.constdata__ZTS11CGOomAction)
+    .constdata__ZTS11CGOomConfig             0x0000cc26   Section       14  goomconfig.o(.constdata__ZTS11CGOomConfig)
+    .constdata__ZTS13CGOomCloseApp           0x0000cc34   Section       16  goomcloseapp.o(.constdata__ZTS13CGOomCloseApp)
+    .constdata__ZTS14CGOomRunPlugin          0x0000cc44   Section       17  goomrunplugin.o(.constdata__ZTS14CGOomRunPlugin)
+    .constdata__ZTS14CMemoryMonitor          0x0000cc55   Section       17  goommemorymonitor.o(.constdata__ZTS14CMemoryMonitor)
+    .constdata__ZTS15CGOomActionList         0x0000cc66   Section       18  goomactionlist.o(.constdata__ZTS15CGOomActionList)
+    .constdata__ZTS15CGOomPluginListI18CGOomMonitorPluginE 0x0000cc78   Section       40  goomactionlist.o(.constdata__ZTS15CGOomPluginListI18CGOomMonitorPluginE)
+    .constdata__ZTS15MGOomRuleConfig         0x0000cca0   Section       18  goomIdletimerule.o(.constdata__ZTS15MGOomRuleConfig)
+    .constdata__ZTS16CSimpleScheduler        0x0000ccb2   Section       19  goommonitor.o(.constdata__ZTS16CSimpleScheduler)
+    .constdata__ZTS17CGOomActionConfig       0x0000ccc5   Section       20  goomactionconfig.o(.constdata__ZTS17CGOomActionConfig)
+    .constdata__ZTS17CGOomConfigParser       0x0000ccd9   Section       20  goomconfigparser.o(.constdata__ZTS17CGOomConfigParser)
+    .constdata__ZTS17CGOomGlobalConfig       0x0000cced   Section       20  goomglobalconfig.o(.constdata__ZTS17CGOomGlobalConfig)
+    .constdata__ZTS17CGOomIdleTimeRule       0x0000cd01   Section       20  goomIdletimerule.o(.constdata__ZTS17CGOomIdleTimeRule)
+    .constdata__ZTS17CGOomPluginWaiter       0x0000cd15   Section       20  goompluginwaiter.o(.constdata__ZTS17CGOomPluginWaiter)
+    .constdata__ZTS18CGOomAppCloseTimer      0x0000cd29   Section       21  goomappclosetimer.o(.constdata__ZTS18CGOomAppCloseTimer)
+    .constdata__ZTS19CGOomCloseAppConfig     0x0000cd3e   Section       22  goomcloseappconfig.o(.constdata__ZTS19CGOomCloseAppConfig)
+    .constdata__ZTS19CGOomForegroundRule     0x0000cd54   Section       22  goomforegroundrule.o(.constdata__ZTS19CGOomForegroundRule)
+    .constdata__ZTS19CWservEventReceiver     0x0000cd6a   Section       22  goomwserveventreceiver.o(.constdata__ZTS19CWservEventReceiver)
+    .constdata__ZTS19MGOomActionObserver     0x0000cd80   Section       22  goomactionlist.o(.constdata__ZTS19MGOomActionObserver)
+    .constdata__ZTS20CGOomAppCloseWatcher    0x0000cd96   Section       23  goomappclosewatcher.o(.constdata__ZTS20CGOomAppCloseWatcher)
+    .constdata__ZTS20CGOomRunPluginConfig    0x0000cdad   Section       23  goomrunpluginconfig.o(.constdata__ZTS20CGOomRunPluginConfig)
+    .constdata__ZTS20CGOomWindowGroupList    0x0000cdc4   Section       23  goomwindowgrouplist.o(.constdata__ZTS20CGOomWindowGroupList)
+    .constdata__ZTS20CMemoryMonitorServer    0x0000cddb   Section       23  goommemorymonitorserver.o(.constdata__ZTS20CMemoryMonitorServer)
+    .constdata__ZTS21CAppGOomMonitorPlugin   0x0000cdf2   Section       24  goommonitorplugin.o(.constdata__ZTS21CAppGOomMonitorPlugin)
+    .constdata__ZTS21CGoomThresholdCrossed   0x0000ce0a   Section       24  goommemorymonitor.o(.constdata__ZTS21CGoomThresholdCrossed)
+    .constdata__ZTS21CMemoryMonitorSession   0x0000ce22   Section       24  goommemorymonitorsession.o(.constdata__ZTS21CMemoryMonitorSession)
+    .constdata__ZTS22CGOomApplicationConfig  0x0000ce3a   Section       25  goomapplicationconfig.o(.constdata__ZTS22CGOomApplicationConfig)
+    .constdata__ZTS22CGOomMonitorPluginBase  0x0000ce53   Section       25  goommonitorplugin.o(.constdata__ZTS22CGOomMonitorPluginBase)
+    .constdata__ZTSN3Xml15MContentHandlerE   0x0000ce6c   Section       24  goomconfigparser.o(.constdata__ZTSN3Xml15MContentHandlerE)
+    .constdata__ZTV11CGOomAction             0x0000ce84   Section       28  goomaction.o(.constdata__ZTV11CGOomAction)
+    .constdata__ZTV11CGOomConfig             0x0000cea0   Section       20  goomconfig.o(.constdata__ZTV11CGOomConfig)
+    .constdata__ZTV13CGOomCloseApp           0x0000ceb4   Section       28  goomcloseapp.o(.constdata__ZTV13CGOomCloseApp)
+    .constdata__ZTV14CGOomRunPlugin          0x0000ced0   Section       28  goomrunplugin.o(.constdata__ZTV14CGOomRunPlugin)
+    .constdata__ZTV14CMemoryMonitor          0x0000ceec   Section       20  goommemorymonitor.o(.constdata__ZTV14CMemoryMonitor)
+    .constdata__ZTV15CGOomActionList         0x0000cf00   Section       44  goomactionlist.o(.constdata__ZTV15CGOomActionList)
+    .constdata__ZTV15CGOomPluginListI18CGOomMonitorPluginE 0x0000cf2c   Section       20  goomactionlist.o(.constdata__ZTV15CGOomPluginListI18CGOomMonitorPluginE)
+    .constdata__ZTV16CSimpleScheduler        0x0000cf40   Section       44  goommonitor.o(.constdata__ZTV16CSimpleScheduler)
+    .constdata__ZTV17CGOomActionConfig       0x0000cf6c   Section       20  goomactionconfig.o(.constdata__ZTV17CGOomActionConfig)
+    .constdata__ZTV17CGOomConfigParser       0x0000cf80   Section      124  goomconfigparser.o(.constdata__ZTV17CGOomConfigParser)
+    .constdata__ZTV17CGOomGlobalConfig       0x0000cffc   Section       20  goomglobalconfig.o(.constdata__ZTV17CGOomGlobalConfig)
+    .constdata__ZTV17CGOomIdleTimeRule       0x0000d010   Section       44  goomIdletimerule.o(.constdata__ZTV17CGOomIdleTimeRule)
+    .constdata__ZTV17CGOomPluginWaiter       0x0000d03c   Section       32  goompluginwaiter.o(.constdata__ZTV17CGOomPluginWaiter)
+    .constdata__ZTV18CGOomAppCloseTimer      0x0000d05c   Section       32  goomappclosetimer.o(.constdata__ZTV18CGOomAppCloseTimer)
+    .constdata__ZTV19CGOomCloseAppConfig     0x0000d07c   Section       20  goomcloseappconfig.o(.constdata__ZTV19CGOomCloseAppConfig)
+    .constdata__ZTV19CGOomForegroundRule     0x0000d090   Section       44  goomforegroundrule.o(.constdata__ZTV19CGOomForegroundRule)
+    .constdata__ZTV19CWservEventReceiver     0x0000d0bc   Section       32  goomwserveventreceiver.o(.constdata__ZTV19CWservEventReceiver)
+    .constdata__ZTV20CGOomAppCloseWatcher    0x0000d0dc   Section       32  goomappclosewatcher.o(.constdata__ZTV20CGOomAppCloseWatcher)
+    .constdata__ZTV20CGOomRunPluginConfig    0x0000d0fc   Section       20  goomrunpluginconfig.o(.constdata__ZTV20CGOomRunPluginConfig)
+    .constdata__ZTV20CGOomWindowGroupList    0x0000d110   Section       20  goomwindowgrouplist.o(.constdata__ZTV20CGOomWindowGroupList)
+    .constdata__ZTV20CMemoryMonitorServer    0x0000d124   Section       40  goommemorymonitorserver.o(.constdata__ZTV20CMemoryMonitorServer)
+    .constdata__ZTV21CAppGOomMonitorPlugin   0x0000d14c   Section       32  goommonitorplugin.o(.constdata__ZTV21CAppGOomMonitorPlugin)
+    .constdata__ZTV21CGoomThresholdCrossed   0x0000d16c   Section       32  goommemorymonitor.o(.constdata__ZTV21CGoomThresholdCrossed)
+    .constdata__ZTV21CMemoryMonitorSession   0x0000d18c   Section       40  goommemorymonitorsession.o(.constdata__ZTV21CMemoryMonitorSession)
+    .constdata__ZTV22CGOomApplicationConfig  0x0000d1b4   Section       20  goomapplicationconfig.o(.constdata__ZTV22CGOomApplicationConfig)
+    .constdata__ZTV22CGOomMonitorPluginBase  0x0000d1c8   Section       32  goommonitorplugin.o(.constdata__ZTV22CGOomMonitorPluginBase)
+    .constdata___ARM__ZN21CGoomThresholdCrossed18StartRequestEventsEv_anon0 0x0000d1e8   Section       20  goommemorymonitor.o(.constdata___ARM__ZN21CGoomThresholdCrossed18StartRequestEventsEv_anon0)
+    .ARM.exidx                               0x0000d1fc   Section        8  ucppinit.o(.ARM.exidx)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    apgrfx{000a0000}[10003a3c].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    bafl{000a0000}[10003a0f].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    cone{000a0000}[10003a41].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    ecom{000a0000}[10009d8e].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    efsrv{000a0000}[100039e4].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    goommonitor{000a0000}[10282dbf].dll      0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libEGL{000a0000}.dll                     0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010000}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    scppnwdl{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    ws32{000a0000}[10003b21].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    xmlframework{000a0000}[101fadcc].dll     0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    RArrayBase::Close()                       - Undefined Reference
+    _ZN10RArrayBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::Reset()                       - Undefined Reference
+    _ZN10RArrayBase5ResetEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::Append(const void*)           - Undefined Reference
+    _ZN10RArrayBase6AppendEPKv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::Remove(int)                   - Undefined Reference
+    _ZN10RArrayBase6RemoveEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::DoReserve(int)                - Undefined Reference
+    _ZN10RArrayBase9DoReserveEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::InsertIsq(const void*, int(*)(const void*, const void*), int)  - Undefined Reference
+    _ZN10RArrayBase9InsertIsqEPKvPFiS1_S1_Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::RArrayBase(int)               - Undefined Reference
+    _ZN10RArrayBaseC1Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RWsSession::EventReady(TRequestStatus*)   - Undefined Reference
+    _ZN10RWsSession10EventReadyEP14TRequestStatus@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::ComputeMode(RWsSession::TComputeMode)  - Undefined Reference
+    _ZN10RWsSession11ComputeModeENS_12TComputeModeE@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::EventReadyCancel()            - Undefined Reference
+    _ZN10RWsSession16EventReadyCancelEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::SendEventToWindowGroup(int, const TWsEvent&)  - Undefined Reference
+    _ZN10RWsSession22SendEventToWindowGroupEiRK8TWsEvent@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::Close()                       - Undefined Reference
+    _ZN10RWsSession5CloseEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::Connect()                     - Undefined Reference
+    _ZN10RWsSession7ConnectEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::RWsSession()                  - Undefined Reference
+    _ZN10RWsSessionC1Ev@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    TBufBase16::TBufBase16(int)               - Undefined Reference
+    _ZN10TBufBase16C1Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    DefaultHash::Integer(const int&)          - Undefined Reference
+    _ZN11DefaultHash7IntegerERKi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RHandleBase::Close()                      - Undefined Reference
+    _ZN11RHandleBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTrapCleanup::New()                       - Undefined Reference
+    _ZN12CTrapCleanup3NewEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PopAndDestroy(int)          - Undefined Reference
+    _ZN12CleanupStack13PopAndDestroyEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PopAndDestroy()             - Undefined Reference
+    _ZN12CleanupStack13PopAndDestroyEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::Pop()                       - Undefined Reference
+    _ZN12CleanupStack3PopEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PushL(TCleanupItem)         - Undefined Reference
+    _ZN12CleanupStack5PushLE12TCleanupItem@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PushL(CBase*)               - Undefined Reference
+    _ZN12CleanupStack5PushLEP5CBase@euser{000a0000}[100039e5].dll  - Undefined Reference
+    REComSession::ListImplementationsL(TUid, RPointerArray<CImplementationInformation>&)  - Undefined Reference
+    _ZN12REComSession20ListImplementationsLE4TUidR13RPointerArrayI26CImplementationInformationE@ecom{000a0000}[10009d8e].dll  - Undefined Reference
+    REComSession::CreateImplementationL(TUid, TUid&, void*)  - Undefined Reference
+    _ZN12REComSession21CreateImplementationLE4TUidRS0_Pv@ecom{000a0000}[10009d8e].dll  - Undefined Reference
+    REComSession::DestroyedImplementation(TUid)  - Undefined Reference
+    _ZN12REComSession23DestroyedImplementationE4TUid@ecom{000a0000}[10009d8e].dll  - Undefined Reference
+    RSessionBase::CreateSession(const TDesC16&, const TVersion&, int, TIpcSessionType, const TSecurityPolicy*, TRequestStatus*)  - Undefined Reference
+    _ZN12RSessionBase13CreateSessionERK7TDesC16RK8TVersioni15TIpcSessionTypePK15TSecurityPolicyP14TRequestStatus@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RWindowGroup::AutoForeground(int)         - Undefined Reference
+    _ZN12RWindowGroup14AutoForegroundEi@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWindowGroup::EnableReceiptOfFocus(int)   - Undefined Reference
+    _ZN12RWindowGroup20EnableReceiptOfFocusEi@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWindowGroup::Construct(unsigned long, int)  - Undefined Reference
+    _ZN12RWindowGroup9ConstructEmi@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWindowGroup::RWindowGroup(RWsSession&)   - Undefined Reference
+    _ZN12RWindowGroupC1ER10RWsSession@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RHashTableBase::ValueInsertL(const void*, int, const void*, int, int)  - Undefined Reference
+    _ZN14RHashTableBase12ValueInsertLEPKviS1_ii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RHashTableBase::Close()                   - Undefined Reference
+    _ZN14RHashTableBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RHashTableBase::ReserveL(int)             - Undefined Reference
+    _ZN14RHashTableBase8ReserveLEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RHashTableBase::RHashTableBase(unsigned long(*)(const void*), int(*)(const void*, const void*), int, int)  - Undefined Reference
+    _ZN14RHashTableBaseC1EPFmPKvEPFiS1_S1_Eii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    DefaultIdentity::Integer(const int&, const int&)  - Undefined Reference
+    _ZN15DefaultIdentity7IntegerERKiS1_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RWindowTreeNode::SetOrdinalPosition(int, int)  - Undefined Reference
+    _ZN15RWindowTreeNode18SetOrdinalPositionEii@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWindowTreeNode::EnableFocusChangeEvents()  - Undefined Reference
+    _ZN15RWindowTreeNode23EnableFocusChangeEventsEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWindowTreeNode::Close()                  - Undefined Reference
+    _ZN15RWindowTreeNode5CloseEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    TDblQueIterBase::SetToFirst()             - Undefined Reference
+    _ZN15TDblQueIterBase10SetToFirstEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDblQueIterBase::DoPostInc()              - Undefined Reference
+    _ZN15TDblQueIterBase9DoPostIncEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN16CActiveScheduler10Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::OnStarting()            - Undefined Reference
+    _ZN16CActiveScheduler10OnStartingEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::OnStopping()            - Undefined Reference
+    _ZN16CActiveScheduler10OnStoppingEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Reserved_1()            - Undefined Reference
+    _ZN16CActiveScheduler10Reserved_1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Reserved_2()            - Undefined Reference
+    _ZN16CActiveScheduler10Reserved_2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::WaitForAnyRequest()     - Undefined Reference
+    _ZN16CActiveScheduler17WaitForAnyRequestEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Add(CActive*)           - Undefined Reference
+    _ZN16CActiveScheduler3AddEP7CActive@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Start()                 - Undefined Reference
+    _ZN16CActiveScheduler5StartEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::Install(CActiveScheduler*)  - Undefined Reference
+    _ZN16CActiveScheduler7InstallEPS_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::CActiveScheduler()      - Undefined Reference
+    _ZN16CActiveSchedulerC1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActiveScheduler::~CActiveScheduler()     - Undefined Reference
+    _ZN16CActiveSchedulerD1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCriticalSection::CreateLocal(TOwnerType)  - Undefined Reference
+    _ZN16RCriticalSection11CreateLocalE10TOwnerType@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCriticalSection::Wait()                  - Undefined Reference
+    _ZN16RCriticalSection4WaitEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCriticalSection::Close()                 - Undefined Reference
+    _ZN16RCriticalSection5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCriticalSection::Signal()                - Undefined Reference
+    _ZN16RCriticalSection6SignalEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCriticalSection::RCriticalSection()      - Undefined Reference
+    _ZN16RCriticalSectionC1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::Close()                - Undefined Reference
+    _ZN17RPointerArrayBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::Reset()                - Undefined Reference
+    _ZN17RPointerArrayBase5ResetEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::Append(const void*)    - Undefined Reference
+    _ZN17RPointerArrayBase6AppendEPKv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::RPointerArrayBase()    - Undefined Reference
+    _ZN17RPointerArrayBaseC1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    THashTableIterBase::RemoveCurrent()       - Undefined Reference
+    _ZN18THashTableIterBase13RemoveCurrentEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    THashTableIterBase::Next(int)             - Undefined Reference
+    _ZN18THashTableIterBase4NextEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    THashTableIterBase::THashTableIterBase(const RHashTableBase&)  - Undefined Reference
+    _ZN18THashTableIterBaseC1ERK14RHashTableBase@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CApaWindowGroupName::FindByAppUid(TUid, RWsSession&, int&)  - Undefined Reference
+    _ZN19CApaWindowGroupName12FindByAppUidE4TUidR10RWsSessionRi@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::SetWindowGroupName(HBufC16*)  - Undefined Reference
+    _ZN19CApaWindowGroupName18SetWindowGroupNameEP7HBufC16@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::NewL(const RWsSession&)  - Undefined Reference
+    _ZN19CApaWindowGroupName4NewLERK10RWsSession@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::NewLC(const RWsSession&, int)  - Undefined Reference
+    _ZN19CApaWindowGroupName5NewLCERK10RWsSessioni@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    RFs::GetSystemDriveChar()                 - Undefined Reference
+    _ZN3RFs18GetSystemDriveCharEv@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    RFs::Close()                              - Undefined Reference
+    _ZN3RFs5CloseEv@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    RFs::Connect(int)                         - Undefined Reference
+    _ZN3RFs7ConnectEi@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    Xml::CParser::NewLC(const TDesC8&, Xml::MContentHandler&)  - Undefined Reference
+    _ZN3Xml7CParser5NewLCERK6TDesC8RNS_15MContentHandlerE@xmlframework{000a0000}[101fadcc].dll  - Undefined Reference
+    Xml::CParser::ParseL(const TDesC8&)       - Undefined Reference
+    _ZN3Xml7CParser6ParseLERK6TDesC8@xmlframework{000a0000}[101fadcc].dll  - Undefined Reference
+    User::NTickCount()                        - Undefined Reference
+    _ZN4User10NTickCountEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LeaveIfError(int)                   - Undefined Reference
+    _ZN4User12LeaveIfErrorEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::RenameThread(const TDesC16&)        - Undefined Reference
+    _ZN4User12RenameThreadERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::RequestComplete(TRequestStatus*&, int)  - Undefined Reference
+    _ZN4User15RequestCompleteERP14TRequestStatusi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::MarkCleanupStack()                  - Undefined Reference
+    _ZN4User16MarkCleanupStackEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::UnMarkCleanupStack(TTrapHandler*)   - Undefined Reference
+    _ZN4User18UnMarkCleanupStackEP12TTrapHandler@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Free(void*)                         - Undefined Reference
+    _ZN4User4FreeEPv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::After(TTimeIntervalMicroSeconds32)  - Undefined Reference
+    _ZN4User5AfterE27TTimeIntervalMicroSeconds32@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Alloc(int)                          - Undefined Reference
+    _ZN4User5AllocEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Leave(int)                          - Undefined Reference
+    _ZN4User5LeaveEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Panic(const TDesC16&, int)          - Undefined Reference
+    _ZN4User5PanicERK7TDesC16i@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::AllocZ(int)                         - Undefined Reference
+    _ZN4User6AllocZEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::AllocZL(int)                        - Undefined Reference
+    _ZN4User7AllocZLEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Invariant()                         - Undefined Reference
+    _ZN4User9InvariantEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CBase::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN5CBase10Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CBase::~CBase()                           - Undefined Reference
+    _ZN5CBaseD1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RFile::Open(RFs&, const TDesC16&, unsigned)  - Undefined Reference
+    _ZN5RFile4OpenER3RFsRK7TDesC16j@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    RFile::Close()                            - Undefined Reference
+    _ZN5RFile5CloseEv@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    TLex8::Val(unsigned long&, TRadix)        - Undefined Reference
+    _ZN5TLex83ValERm6TRadix@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TLex8::Assign(const TDesC8&)              - Undefined Reference
+    _ZN5TLex86AssignERK6TDesC8@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TTime::UniversalTime()                    - Undefined Reference
+    _ZN5TTime13UniversalTimeEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::ConstructL()                      - Undefined Reference
+    _ZN6CTimer10ConstructLEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::After(TTimeIntervalMicroSeconds32)  - Undefined Reference
+    _ZN6CTimer5AfterE27TTimeIntervalMicroSeconds32@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::HighRes(TTimeIntervalMicroSeconds32)  - Undefined Reference
+    _ZN6CTimer7HighResE27TTimeIntervalMicroSeconds32@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::DoCancel()                        - Undefined Reference
+    _ZN6CTimer8DoCancelEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::CTimer__sub_object(int)           - Undefined Reference
+    _ZN6CTimerC2Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CTimer::~CTimer__sub_object()             - Undefined Reference
+    _ZN6CTimerD2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RDebug::Print(TRefByValue<const TDesC16>, ...)  - Undefined Reference
+    _ZN6RDebug5PrintE11TRefByValueIK7TDesC16Ez@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDes16::Append(TChar)                     - Undefined Reference
+    _ZN6TDes166AppendE5TChar@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDes16::Append(const TDesC16&)            - Undefined Reference
+    _ZN6TDes166AppendERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDes16::Replace(int, int, const TDesC16&)  - Undefined Reference
+    _ZN6TDes167ReplaceEiiRK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDes16::AppendNum(long long)              - Undefined Reference
+    _ZN6TDes169AppendNumEx@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC8::TPtrC8(const TDesC8&)             - Undefined Reference
+    _ZN6TPtrC8C1ERK6TDesC8@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC8::TPtrC8()                          - Undefined Reference
+    _ZN6TPtrC8C1Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN7CActive10Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::Cancel()                         - Undefined Reference
+    _ZN7CActive6CancelEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::RunError(int)                    - Undefined Reference
+    _ZN7CActive8RunErrorEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::SetActive()                      - Undefined Reference
+    _ZN7CActive9SetActiveEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::CActive__sub_object(int)         - Undefined Reference
+    _ZN7CActiveC2Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::~CActive__sub_object()           - Undefined Reference
+    _ZN7CActiveD2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CCoeEnv::Static()                         - Undefined Reference
+    _ZN7CCoeEnv6StaticEv@cone{000a0000}[10003a41].dll  - Undefined Reference
+    HBufC16::Des()                            - Undefined Reference
+    _ZN7HBufC163DesEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    HBufC16::NewL(int)                        - Undefined Reference
+    _ZN7HBufC164NewLEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    HBufC16::operator =(const TDesC16&)       - Undefined Reference
+    _ZN7HBufC16aSERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::Open(TThreadId, TOwnerType)      - Undefined Reference
+    _ZN7RThread4OpenE9TThreadId10TOwnerType@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::Create(const TDesC16&, int(*)(void*), int, RAllocator*, void*, TOwnerType)  - Undefined Reference
+    _ZN7RThread6CreateERK7TDesC16PFiPvEiP10RAllocatorS3_10TOwnerType@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC16::TPtrC16(const unsigned short*)   - Undefined Reference
+    _ZN7TPtrC16C1EPKt@euser{000a0000}[100039e5].dll  - Undefined Reference
+    UserSvr::DllFreeTls(int)                  - Undefined Reference
+    _ZN7UserSvr10DllFreeTlsEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    UserSvr::DllTls(int, int)                 - Undefined Reference
+    _ZN7UserSvr6DllTlsEii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    UserSvr::DllSetTls(int, int, void*)       - Undefined Reference
+    _ZN7UserSvr9DllSetTlsEiiPv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN8CServer210Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::RunL()                          - Undefined Reference
+    _ZN8CServer24RunLEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::StartL(const TDesC16&)          - Undefined Reference
+    _ZN8CServer26StartLERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::ReStart()                       - Undefined Reference
+    _ZN8CServer27ReStartEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::DoCancel()                      - Undefined Reference
+    _ZN8CServer28DoCancelEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::DoConnect(const RMessage2&)     - Undefined Reference
+    _ZN8CServer29DoConnectERK9RMessage2@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::CServer2__sub_object(int, CServer2::TServerType)  - Undefined Reference
+    _ZN8CServer2C2EiNS_11TServerTypeE@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CServer2::~CServer2__sub_object()         - Undefined Reference
+    _ZN8CServer2D2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RProcess::Open(TProcessId, TOwnerType)    - Undefined Reference
+    _ZN8RProcess4OpenE10TProcessId10TOwnerType@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TApaTask::EndTask()                       - Undefined Reference
+    _ZN8TApaTask7EndTaskEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    TApaTask::SetWgId(int)                    - Undefined Reference
+    _ZN8TApaTask7SetWgIdEi@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    TApaTask::KillTask()                      - Undefined Reference
+    _ZN8TApaTask8KillTaskEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    TApaTask::TApaTask(RWsSession&)           - Undefined Reference
+    _ZN8TApaTaskC1ER10RWsSession@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    TVersion::TVersion(int, int, int)         - Undefined Reference
+    _ZN8TVersionC1Eiii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::Disconnect(const RMessage2&)   - Undefined Reference
+    _ZN9CSession210DisconnectERK9RMessage2@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN9CSession210Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::ServiceError(const RMessage2&, int)  - Undefined Reference
+    _ZN9CSession212ServiceErrorERK9RMessage2i@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::CountResources()               - Undefined Reference
+    _ZN9CSession214CountResourcesEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::CSession2__sub_object()        - Undefined Reference
+    _ZN9CSession2C2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CSession2::~CSession2__sub_object()       - Undefined Reference
+    _ZN9CSession2D2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TBufBase8::TBufBase8(int)                 - Undefined Reference
+    _ZN9TBufBase8C1Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::At(int) const                 - Undefined Reference
+    _ZNK10RArrayBase2AtEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::Count() const                 - Undefined Reference
+    _ZNK10RArrayBase5CountEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RWsSession::NumWindowGroups(int) const    - Undefined Reference
+    _ZNK10RWsSession15NumWindowGroupsEi@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::WindowGroupList(int, RArray<RWsSession::TWindowGroupChainInfo>*) const  - Undefined Reference
+    _ZNK10RWsSession15WindowGroupListEiP6RArrayINS_21TWindowGroupChainInfoEE@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::GetFocusWindowGroup() const   - Undefined Reference
+    _ZNK10RWsSession19GetFocusWindowGroupEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::GetWindowGroupNameFromIdentifier(int, TDes16&) const  - Undefined Reference
+    _ZNK10RWsSession32GetWindowGroupNameFromIdentifierEiR6TDes16@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RWsSession::GetEvent(TWsEvent&) const     - Undefined Reference
+    _ZNK10RWsSession8GetEventER8TWsEvent@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RStringBase::DesC() const                 - Undefined Reference
+    _ZNK11RStringBase4DesCEv@bafl{000a0000}[10003a0f].dll  - Undefined Reference
+    RMessagePtr2::Panic(const TDesC16&, int) const  - Undefined Reference
+    _ZNK12RMessagePtr25PanicERK7TDesC16i@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RMessagePtr2::Client(RThread&, TOwnerType) const  - Undefined Reference
+    _ZNK12RMessagePtr26ClientER7RThread10TOwnerType@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RMessagePtr2::Complete(int) const         - Undefined Reference
+    _ZNK12RMessagePtr28CompleteEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RSessionBase::DoSendReceive(int, const TIpcArgs*) const  - Undefined Reference
+    _ZNK12RSessionBase13DoSendReceiveEiPK8TIpcArgs@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RSessionBase::DoSendReceive(int, const TIpcArgs*, TRequestStatus&) const  - Undefined Reference
+    _ZNK12RSessionBase13DoSendReceiveEiPK8TIpcArgsR14TRequestStatus@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RWindowGroup::Identifier() const          - Undefined Reference
+    _ZNK12RWindowGroup10IdentifierEv@ws32{000a0000}[10003b21].dll  - Undefined Reference
+    RHashTableBase::Find(const void*, int) const  - Undefined Reference
+    _ZNK14RHashTableBase4FindEPKvi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    XLeaveException::GetReason() const        - Undefined Reference
+    _ZNK15XLeaveException9GetReasonEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::At(int) const          - Undefined Reference
+    _ZNK17RPointerArrayBase2AtEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RPointerArrayBase::Count() const          - Undefined Reference
+    _ZNK17RPointerArrayBase5CountEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    THashTableIterBase::Current(int) const    - Undefined Reference
+    _ZNK18THashTableIterBase7CurrentEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CApaWindowGroupName::AppUid() const       - Undefined Reference
+    _ZNK19CApaWindowGroupName6AppUidEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::Hidden() const       - Undefined Reference
+    _ZNK19CApaWindowGroupName6HiddenEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::IsBusy() const       - Undefined Reference
+    _ZNK19CApaWindowGroupName6IsBusyEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    CApaWindowGroupName::IsSystem() const     - Undefined Reference
+    _ZNK19CApaWindowGroupName8IsSystemEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    Xml::RAttribute::Value() const            - Undefined Reference
+    _ZNK3Xml10RAttribute5ValueEv@xmlframework{000a0000}[101fadcc].dll  - Undefined Reference
+    Xml::RAttribute::Attribute() const        - Undefined Reference
+    _ZNK3Xml10RAttribute9AttributeEv@xmlframework{000a0000}[101fadcc].dll  - Undefined Reference
+    Xml::RTagInfo::LocalName() const          - Undefined Reference
+    _ZNK3Xml8RTagInfo9LocalNameEv@xmlframework{000a0000}[101fadcc].dll  - Undefined Reference
+    TUid::operator !=(const TUid&) const      - Undefined Reference
+    _ZNK4TUidneERKS_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RFile::Read(TDes8&) const                 - Undefined Reference
+    _ZNK5RFile4ReadER5TDes8@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    TDesC8::Compare(const TDesC8&) const      - Undefined Reference
+    _ZNK6TDesC87CompareERKS_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::LogonCancel(TRequestStatus&) const  - Undefined Reference
+    _ZNK7RThread11LogonCancelER14TRequestStatus@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::SetPriority(TThreadPriority) const  - Undefined Reference
+    _ZNK7RThread11SetPriorityE15TThreadPriority@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::ProcessPriority() const          - Undefined Reference
+    _ZNK7RThread15ProcessPriorityEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::RequestComplete(TRequestStatus*&, int) const  - Undefined Reference
+    _ZNK7RThread15RequestCompleteERP14TRequestStatusi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::SetProcessPriority(TProcessPriority) const  - Undefined Reference
+    _ZNK7RThread18SetProcessPriorityE16TProcessPriority@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::Id() const                       - Undefined Reference
+    _ZNK7RThread2IdEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::Logon(TRequestStatus&) const     - Undefined Reference
+    _ZNK7RThread5LogonER14TRequestStatus@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::Resume() const                   - Undefined Reference
+    _ZNK7RThread6ResumeEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RThread::SecureId() const                 - Undefined Reference
+    _ZNK7RThread8SecureIdEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RProcess::SecureId() const                - Undefined Reference
+    _ZNK8RProcess8SecureIdEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TApaTask::ThreadId() const                - Undefined Reference
+    _ZNK8TApaTask8ThreadIdEv@apgrfx{000a0000}[10003a3c].dll  - Undefined Reference
+    typeinfo for XLeaveException              - Undefined Reference
+    _ZTI15XLeaveException@drtaeabi{000a0000}.dll  - Undefined Reference
+    typeinfo for CActiveScheduler             - Undefined Reference
+    _ZTI16CActiveScheduler@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for CBase                        - Undefined Reference
+    _ZTI5CBase@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for CTimer                       - Undefined Reference
+    _ZTI6CTimer@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for CActive                      - Undefined Reference
+    _ZTI7CActive@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for CServer2                     - Undefined Reference
+    _ZTI8CServer2@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for CSession2                    - Undefined Reference
+    _ZTI9CSession2@euser{000a0000}[100039e5].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@scppnwdl{000a0000}.dll             - Undefined Reference
+    __aeabi_memclr4                           - Undefined Reference
+    __aeabi_memclr4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_call_unexpected                     - Undefined Reference
+    __cxa_call_unexpected@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    eglGetDisplay                             - Undefined Reference
+    eglGetDisplay@libEGL{000a0000}.dll        - Undefined Reference
+    eglGetProcAddress                         - Undefined Reference
+    eglGetProcAddress@libEGL{000a0000}.dll    - Undefined Reference
+    eglInitialize                             - Undefined Reference
+    eglInitialize@libEGL{000a0000}.dll        - Undefined Reference
+    eglQueryString                            - Undefined Reference
+    eglQueryString@libEGL{000a0000}.dll       - Undefined Reference
+    eglTerminate                              - Undefined Reference
+    eglTerminate@libEGL{000a0000}.dll         - Undefined Reference
+    memclr                                    - Undefined Reference
+    memclr@euser{000a0000}[100039e5].dll      - Undefined Reference
+    run_static_dtors                          - Undefined Weak Reference
+    strcspn                                   - Undefined Reference
+    strcspn@libc{00010000}[10207369].dll      - Undefined Reference
+    strlen                                    - Undefined Reference
+    strlen@libc{00010000}[10207369].dll       - Undefined Reference
+    strncmp                                   - Undefined Reference
+    strncmp@libc{00010000}[10207369].dll      - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    CGOomIdleTimeRule::CGOomIdleTimeRule(TTimeIntervalSeconds, int) 0x000085fd   Thumb Code    14  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::CGOomIdleTimeRule__sub_object(TTimeIntervalSeconds, int) 0x000085fd   Thumb Code     0  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::NewL(TTimeIntervalSeconds, int) 0x0000860b   Thumb Code    22  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::RuleIsApplicable(const CGOomWindowGroupList&, int) const 0x00008621   Thumb Code    34  goomIdletimerule.o(.text)
+    thunk{-4} to CGOomIdleTimeRule::RuleIsApplicable(const CGOomWindowGroupList&, int) const 0x00008643   Thumb Code     4  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::~CGOomIdleTimeRule()  0x00008647   Thumb Code     8  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::~CGOomIdleTimeRule__sub_object() 0x00008647   Thumb Code     0  goomIdletimerule.o(.text)
+    CGOomIdleTimeRule::~CGOomIdleTimeRule__deallocating() 0x0000864f   Thumb Code    16  goomIdletimerule.o(.text)
+    CGOomAction::~CGOomAction()              0x00008665   Thumb Code     0  goomaction.o(.text)
+    CGOomAction::~CGOomAction__sub_object()  0x00008665   Thumb Code     8  goomaction.o(.text)
+    CGOomAction::~CGOomAction__deallocating() 0x0000866d   Thumb Code    16  goomaction.o(.text)
+    CGOomAction::MemoryFreed(int)            0x0000867d   Thumb Code    12  goomaction.o(.text)
+    CGOomAction::CGOomAction__sub_object(MGOomActionObserver&) 0x00008689   Thumb Code     8  goomaction.o(.text)
+    CGOomActionConfig::AddRuleL(MGOomRuleConfig*) 0x00008695   Thumb Code    14  goomactionconfig.o(.text)
+    CGOomActionConfig::~CGOomActionConfig()  0x000086a3   Thumb Code    64  goomactionconfig.o(.text)
+    CGOomActionConfig::~CGOomActionConfig__sub_object() 0x000086a3   Thumb Code     0  goomactionconfig.o(.text)
+    CGOomActionConfig::~CGOomActionConfig__deallocating() 0x000086e3   Thumb Code    16  goomactionconfig.o(.text)
+    CGOomActionConfig::Priority(const CGOomWindowGroupList&, int) const 0x000086f3   Thumb Code    92  goomactionconfig.o(.text)
+    CGOomActionConfig::ConstructL()          0x0000874f   Thumb Code     2  goomactionconfig.o(.text)
+    CGOomActionConfig::CGOomActionConfig(long) 0x00008751   Thumb Code    22  goomactionconfig.o(.text)
+    CGOomActionConfig::CGOomActionConfig__sub_object(long) 0x00008751   Thumb Code     0  goomactionconfig.o(.text)
+    CGOomActionList::ConstructL(CGOomConfig&) 0x0000876d   Thumb Code   166  goomactionlist.o(.text)
+    CGOomActionList::CGOomActionList(CMemoryMonitor&, CMemoryMonitorServer&, RWsSession&) 0x00008813   Thumb Code    60  goomactionlist.o(.text)
+    CGOomActionList::CGOomActionList__sub_object(CMemoryMonitor&, CMemoryMonitorServer&, RWsSession&) 0x00008813   Thumb Code     0  goomactionlist.o(.text)
+    CGOomActionList::NewL(CMemoryMonitor&, CMemoryMonitorServer&, RWsSession&, CGOomConfig&) 0x0000884f   Thumb Code    48  goomactionlist.o(.text)
+    CGOomActionList::~CGOomActionList()      0x0000887f   Thumb Code   156  goomactionlist.o(.text)
+    CGOomActionList::~CGOomActionList__sub_object() 0x0000887f   Thumb Code     0  goomactionlist.o(.text)
+    CGOomActionList::~CGOomActionList__deallocating() 0x0000891b   Thumb Code    16  goomactionlist.o(.text)
+    CGOomActionList::ComparePriorities(const TActionRef&, const TActionRef&) 0x0000892b   Thumb Code   258  goomactionlist.o(.text)
+    CGOomActionList::BuildActionListL(CGOomWindowGroupList&, CGOomConfig&) 0x00008a2d   Thumb Code   390  goomactionlist.o(.text)
+    CGOomActionList::MemoryGood()            0x00008bb3   Thumb Code    70  goomactionlist.o(.text)
+    CGOomActionList::FreeMemoryAboveTarget(int&) 0x00008bf9   Thumb Code    28  goomactionlist.o(.text)
+    CGOomActionList::FreeMemory(int)         0x00008c15   Thumb Code   314  goomactionlist.o(.text)
+    CGOomActionList::AppNotExiting(int)      0x00008d4f   Thumb Code    58  goomactionlist.o(.text)
+    CGOomActionList::StateChanged()          0x00008d89   Thumb Code   176  goomactionlist.o(.text)
+    thunk{-4} to CGOomActionList::StateChanged() 0x00008e39   Thumb Code     4  goomactionlist.o(.text)
+    TActionRef::TActionRef(TActionRef::TActionType, int, TGOomSyncMode, int, CGOomRunPlugin&, unsigned) 0x00008e3d   Thumb Code    16  goomactionref.o(.text)
+    TActionRef::TActionRef__sub_object(TActionRef::TActionType, int, TGOomSyncMode, int, CGOomRunPlugin&, unsigned) 0x00008e3d   Thumb Code     0  goomactionref.o(.text)
+    TActionRef::TActionRef(TActionRef::TActionType, int, TGOomSyncMode, int, int, unsigned) 0x00008e4d   Thumb Code    16  goomactionref.o(.text)
+    TActionRef::TActionRef__sub_object(TActionRef::TActionType, int, TGOomSyncMode, int, int, unsigned) 0x00008e4d   Thumb Code     0  goomactionref.o(.text)
+    TActionRef::Type() const                 0x00008e5d   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::Priority() const             0x00008e61   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::SyncMode() const             0x00008e65   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::RamEstimate() const          0x00008e69   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::WgId() const                 0x00008e6d   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::WgIndex() const              0x00008e71   Thumb Code     4  goomactionref.o(.text)
+    TActionRef::RunPlugin()                  0x00008e75   Thumb Code     4  goomactionref.o(.text)
+    CGOomAppCloseTimer::CGOomAppCloseTimer(CGOomCloseApp&) 0x00008e79   Thumb Code    28  goomappclosetimer.o(.text)
+    CGOomAppCloseTimer::CGOomAppCloseTimer__sub_object(CGOomCloseApp&) 0x00008e79   Thumb Code     0  goomappclosetimer.o(.text)
+    CGOomAppCloseTimer::NewL(CGOomCloseApp&) 0x00008e95   Thumb Code    36  goomappclosetimer.o(.text)
+    CGOomAppCloseTimer::RunL()               0x00008eb9   Thumb Code    10  goomappclosetimer.o(.text)
+    CGOomAppCloseWatcher::CGOomAppCloseWatcher(CGOomCloseApp&) 0x00008ec9   Thumb Code    32  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::CGOomAppCloseWatcher__sub_object(CGOomCloseApp&) 0x00008ec9   Thumb Code     0  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::~CGOomAppCloseWatcher() 0x00008ee9   Thumb Code    22  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::~CGOomAppCloseWatcher__sub_object() 0x00008ee9   Thumb Code     0  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::~CGOomAppCloseWatcher__deallocating() 0x00008eff   Thumb Code    16  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::Start(const TApaTask&) 0x00008f0f   Thumb Code    94  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::DoCancel()         0x00008f6d   Thumb Code    32  goomappclosewatcher.o(.text)
+    CGOomAppCloseWatcher::RunL()             0x00008f8d   Thumb Code    44  goomappclosewatcher.o(.text)
+    CGOomApplicationConfig::ConstructL()     0x00008fc5   Thumb Code    10  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::CGOomApplicationConfig(unsigned) 0x00008fcf   Thumb Code     8  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::CGOomApplicationConfig__sub_object(unsigned) 0x00008fcf   Thumb Code     0  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::NewL(unsigned)   0x00008fd7   Thumb Code    36  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::AddRuleL(MGOomRuleConfig*) 0x00008ffb   Thumb Code    26  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::~CGOomApplicationConfig() 0x00009015   Thumb Code    28  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::~CGOomApplicationConfig__sub_object() 0x00009015   Thumb Code     0  goomapplicationconfig.o(.text)
+    CGOomApplicationConfig::~CGOomApplicationConfig__deallocating() 0x00009031   Thumb Code    16  goomapplicationconfig.o(.text)
+    CGOomCloseApp::ConstructL()              0x00009045   Thumb Code    26  goomcloseapp.o(.text)
+    CGOomCloseApp::CGOomCloseApp(MGOomActionObserver&, RWsSession&) 0x0000905f   Thumb Code    28  goomcloseapp.o(.text)
+    CGOomCloseApp::CGOomCloseApp__sub_object(MGOomActionObserver&, RWsSession&) 0x0000905f   Thumb Code     0  goomcloseapp.o(.text)
+    CGOomCloseApp::NewL(MGOomActionObserver&, RWsSession&) 0x0000907b   Thumb Code    40  goomcloseapp.o(.text)
+    CGOomCloseApp::FreeMemory(int)           0x000090a3   Thumb Code    46  goomcloseapp.o(.text)
+    CGOomCloseApp::~CGOomCloseApp()          0x000090d1   Thumb Code    60  goomcloseapp.o(.text)
+    CGOomCloseApp::~CGOomCloseApp__sub_object() 0x000090d1   Thumb Code     0  goomcloseapp.o(.text)
+    CGOomCloseApp::~CGOomCloseApp__deallocating() 0x0000910d   Thumb Code    16  goomcloseapp.o(.text)
+    CGOomCloseApp::CloseAppEvent()           0x0000911d   Thumb Code    38  goomcloseapp.o(.text)
+    CGOomCloseApp::Reconfigure(const TActionRef&) 0x00009143   Thumb Code    14  goomcloseapp.o(.text)
+    CGOomCloseApp::KillTask()                0x00009151   Thumb Code    32  goomcloseapp.o(.text)
+    CGOomCloseAppConfig::CGOomCloseAppConfig(long) 0x00009179   Thumb Code    12  goomcloseappconfig.o(.text)
+    CGOomCloseAppConfig::CGOomCloseAppConfig__sub_object(long) 0x00009179   Thumb Code     0  goomcloseappconfig.o(.text)
+    CGOomCloseAppConfig::NewL(long)          0x00009185   Thumb Code    36  goomcloseappconfig.o(.text)
+    CGOomCloseAppConfig::~CGOomCloseAppConfig() 0x000091a9   Thumb Code     8  goomcloseappconfig.o(.text)
+    CGOomCloseAppConfig::~CGOomCloseAppConfig__sub_object() 0x000091a9   Thumb Code     0  goomcloseappconfig.o(.text)
+    CGOomCloseAppConfig::~CGOomCloseAppConfig__deallocating() 0x000091b1   Thumb Code    16  goomcloseappconfig.o(.text)
+    CGOomConfig::ConstructL()                0x000091c5   Thumb Code     2  goomconfig.o(.text)
+    CGOomConfig::NewL()                      0x000091c7   Thumb Code    26  goomconfig.o(.text)
+    CGOomConfig::SetAppCloseConfigL(CGOomCloseAppConfig*) 0x000091e1   Thumb Code    68  goomconfig.o(.text)
+    CGOomConfig::AddPluginConfigL(CGOomRunPluginConfig*) 0x00009225   Thumb Code    60  goomconfig.o(.text)
+    CGOomConfig::AddApplicationRuleL(unsigned, MGOomRuleConfig*) 0x00009261   Thumb Code    36  goomconfig.o(.text)
+    CGOomConfig::AddPluginRuleL(unsigned, MGOomRuleConfig*) 0x00009285   Thumb Code    36  goomconfig.o(.text)
+    CGOomConfig::AddApplicationConfigL(CGOomApplicationConfig*) 0x000092a9   Thumb Code    48  goomconfig.o(.text)
+    CGOomConfig::GetApplicationConfig(long)  0x000092d9   Thumb Code    44  goomconfig.o(.text)
+    CGOomConfig::GetPluginConfig(long)       0x00009305   Thumb Code    46  goomconfig.o(.text)
+    CGOomConfig::~CGOomConfig()              0x00009333   Thumb Code   106  goomconfig.o(.text)
+    CGOomConfig::~CGOomConfig__sub_object()  0x00009333   Thumb Code     0  goomconfig.o(.text)
+    CGOomConfig::~CGOomConfig__deallocating() 0x0000939d   Thumb Code    16  goomconfig.o(.text)
+    CGOomConfigParser::CGOomConfigParser(CGOomConfig&, RFs&) 0x000093b1   Thumb Code    20  goomconfigparser.o(.text)
+    CGOomConfigParser::CGOomConfigParser__sub_object(CGOomConfig&, RFs&) 0x000093b1   Thumb Code     0  goomconfigparser.o(.text)
+    CGOomConfigParser::ParseL()              0x000093c5   Thumb Code   186  goomconfigparser.o(.text)
+    CGOomConfigParser::OnStartDocumentL(const Xml::RDocumentParameters&, int) 0x0000947f   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnStartDocumentL(const Xml::RDocumentParameters&, int) 0x00009481   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnEndDocumentL(int)   0x00009483   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnEndDocumentL(int) 0x00009485   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::ConfigError(int)      0x00009487   Thumb Code    10  goomconfigparser.o(.text)
+    CGOomConfigParser::GetValueFromAttributeList(const RArray<Xml::RAttribute>&, const TDesC8&, TPtrC8&) 0x00009491   Thumb Code   108  goomconfigparser.o(.text)
+    CGOomConfigParser::GetValueFromDecimalAttributeList(const RArray<Xml::RAttribute>&, const TDesC8&, unsigned&) 0x000094fd   Thumb Code    86  goomconfigparser.o(.text)
+    CGOomConfigParser::GetValueFromHexAttributeList(const RArray<Xml::RAttribute>&, const TDesC8&, unsigned&) 0x00009553   Thumb Code   140  goomconfigparser.o(.text)
+    CGOomConfigParser::SetPluginForegroundAppPriorityL(const RArray<Xml::RAttribute>&) 0x000095df   Thumb Code   154  goomconfigparser.o(.text)
+    CGOomConfigParser::CheckState(CGOomConfigParser::TGOomParsingState, CGOomConfigParser::TGOomParsingState, int) 0x00009679   Thumb Code    20  goomconfigparser.o(.text)
+    CGOomConfigParser::GetValueFromDecimalAttributeList(const RArray<Xml::RAttribute>&, const TDesC8&, int&) 0x0000968d   Thumb Code    16  goomconfigparser.o(.text)
+    CGOomConfigParser::SetPluginIdlePriorityL(const RArray<Xml::RAttribute>&) 0x0000969d   Thumb Code    94  goomconfigparser.o(.text)
+    CGOomConfigParser::CheckState(CGOomConfigParser::TGOomParsingState, int) 0x000096fb   Thumb Code    16  goomconfigparser.o(.text)
+    CGOomConfigParser::SetPluginSyncMode(const RArray<Xml::RAttribute>&, CGOomRunPluginConfig&) 0x0000970b   Thumb Code   126  goomconfigparser.o(.text)
+    CGOomConfigParser::SetAppPluginConfigL(const RArray<Xml::RAttribute>&) 0x00009789   Thumb Code   166  goomconfigparser.o(.text)
+    CGOomConfigParser::SetSystemPluginConfigL(const RArray<Xml::RAttribute>&) 0x0000982f   Thumb Code   134  goomconfigparser.o(.text)
+    CGOomConfigParser::SetForegroundAppPriorityL(const RArray<Xml::RAttribute>&) 0x000098b5   Thumb Code    98  goomconfigparser.o(.text)
+    CGOomConfigParser::SetAppCloseIdlePriorityConfigL(const RArray<Xml::RAttribute>&) 0x00009917   Thumb Code    94  goomconfigparser.o(.text)
+    CGOomConfigParser::SetCloseAppConfigL(const RArray<Xml::RAttribute>&) 0x00009975   Thumb Code   224  goomconfigparser.o(.text)
+    CGOomConfigParser::SetAppConfigL(const RArray<Xml::RAttribute>&) 0x00009a55   Thumb Code   180  goomconfigparser.o(.text)
+    CGOomConfigParser::SetForceCheckConfigL(const RArray<Xml::RAttribute>&) 0x00009b09   Thumb Code    64  goomconfigparser.o(.text)
+    CGOomConfigParser::ChangeState(CGOomConfigParser::TGOomParsingState) 0x00009b49   Thumb Code     4  goomconfigparser.o(.text)
+    CGOomConfigParser::SetGlobalSettings(const RArray<Xml::RAttribute>&) 0x00009b4d   Thumb Code   134  goomconfigparser.o(.text)
+    CGOomConfigParser::StartElementL(const TDesC8&, const RArray<Xml::RAttribute>&) 0x00009bd3   Thumb Code   408  goomconfigparser.o(.text)
+    CGOomConfigParser::OnStartElementL(const Xml::RTagInfo&, const RArray<Xml::RAttribute>&, int) 0x00009d6b   Thumb Code    40  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnStartElementL(const Xml::RTagInfo&, const RArray<Xml::RAttribute>&, int) 0x00009d93   Thumb Code     4  goomconfigparser.o(.text)
+    CGOomConfigParser::OnEndElementL(const Xml::RTagInfo&, int) 0x00009d97   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnEndElementL(const Xml::RTagInfo&, int) 0x00009d99   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnContentL(const TDesC8&, int) 0x00009d9b   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnContentL(const TDesC8&, int) 0x00009d9d   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnStartPrefixMappingL(const RString&, const RString&, int) 0x00009d9f   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnStartPrefixMappingL(const RString&, const RString&, int) 0x00009da1   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnEndPrefixMappingL(const RString&, int) 0x00009da3   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnEndPrefixMappingL(const RString&, int) 0x00009da5   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnIgnorableWhiteSpaceL(const TDesC8&, int) 0x00009da7   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnIgnorableWhiteSpaceL(const TDesC8&, int) 0x00009da9   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnSkippedEntityL(const RString&, int) 0x00009dab   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnSkippedEntityL(const RString&, int) 0x00009dad   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnProcessingInstructionL(const TDesC8&, const TDesC8&, int) 0x00009daf   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnProcessingInstructionL(const TDesC8&, const TDesC8&, int) 0x00009db1   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::OnError(int)          0x00009db3   Thumb Code     2  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::OnError(int) 0x00009db5   Thumb Code     2  goomconfigparser.o(.text)
+    CGOomConfigParser::GetExtendedInterface(long) 0x00009db7   Thumb Code     4  goomconfigparser.o(.text)
+    thunk{-4} to CGOomConfigParser::GetExtendedInterface(long) 0x00009dbb   Thumb Code     4  goomconfigparser.o(.text)
+    CGOomForegroundRule::CGOomForegroundRule(int, int) 0x00009dc9   Thumb Code    14  goomforegroundrule.o(.text)
+    CGOomForegroundRule::CGOomForegroundRule__sub_object(int, int) 0x00009dc9   Thumb Code     0  goomforegroundrule.o(.text)
+    CGOomForegroundRule::RuleIsApplicable(const CGOomWindowGroupList&, int) const 0x00009dd7   Thumb Code    40  goomforegroundrule.o(.text)
+    thunk{-4} to CGOomForegroundRule::RuleIsApplicable(const CGOomWindowGroupList&, int) const 0x00009dff   Thumb Code     4  goomforegroundrule.o(.text)
+    CGOomGlobalConfig::~CGOomGlobalConfig()  0x00009e09   Thumb Code    24  goomglobalconfig.o(.text)
+    CGOomGlobalConfig::~CGOomGlobalConfig__sub_object() 0x00009e09   Thumb Code     0  goomglobalconfig.o(.text)
+    CGOomGlobalConfig::~CGOomGlobalConfig__deallocating() 0x00009e21   Thumb Code    16  goomglobalconfig.o(.text)
+    EGLSynchObjThreadStartFunction(void*)    0x00009e35   Thumb Code    58  goommemorymonitor.o(.text)
+    CreateThresholdCrossedThreadL(CMemoryMonitor&, unsigned, int) 0x00009e6f   Thumb Code    86  goommemorymonitor.o(.text)
+    CMemoryMonitor::GetFreeMemory()          0x00009ec5   Thumb Code   144  goommemorymonitor.o(.text)
+    CMemoryMonitor::GlobalConfig()           0x00009f55   Thumb Code    12  goommemorymonitor.o(.text)
+    CMemoryMonitor::RefreshThresholds(int)   0x00009f61   Thumb Code   296  goommemorymonitor.o(.text)
+    CMemoryMonitor::ConstructL()             0x0000a089   Thumb Code   234  goommemorymonitor.o(.text)
+    CMemoryMonitor::CMemoryMonitor()         0x0000a173   Thumb Code    34  goommemorymonitor.o(.text)
+    CMemoryMonitor::CMemoryMonitor__sub_object() 0x0000a173   Thumb Code     0  goommemorymonitor.o(.text)
+    CMemoryMonitor::NewL()                   0x0000a195   Thumb Code    32  goommemorymonitor.o(.text)
+    CMemoryMonitor::~CMemoryMonitor()        0x0000a1b5   Thumb Code   204  goommemorymonitor.o(.text)
+    CMemoryMonitor::~CMemoryMonitor__sub_object() 0x0000a1b5   Thumb Code     0  goommemorymonitor.o(.text)
+    CMemoryMonitor::~CMemoryMonitor__deallocating() 0x0000a281   Thumb Code    16  goommemorymonitor.o(.text)
+    CMemoryMonitor::ResetTargets()           0x0000a291   Thumb Code    10  goommemorymonitor.o(.text)
+    CMemoryMonitor::FreeGraphicsMemoryAboveThresholdL(int&) 0x0000a29b   Thumb Code    30  goommemorymonitor.o(.text)
+    CMemoryMonitor::StartFreeSomeRamL(int, int) 0x0000a2b9   Thumb Code    70  goommemorymonitor.o(.text)
+    CMemoryMonitor::StartFreeSomeRamL(int)   0x0000a2ff   Thumb Code     4  goommemorymonitor.o(.text)
+    CMemoryMonitor::FreeMemThresholdCrossedL(int, int) 0x0000a303   Thumb Code    78  goommemorymonitor.o(.text)
+    CMemoryMonitor::AppNotExiting(int)       0x0000a351   Thumb Code    10  goommemorymonitor.o(.text)
+    CMemoryMonitor::FreeOptionalRamL(int, int, int) 0x0000a35b   Thumb Code    42  goommemorymonitor.o(.text)
+    CMemoryMonitor::RequestFreeMemoryL(int, int) 0x0000a385   Thumb Code    12  goommemorymonitor.o(.text)
+    CMemoryMonitor::HandleFocusedWgChangeL(int) 0x0000a391   Thumb Code    14  goommemorymonitor.o(.text)
+    CMemoryMonitor::SetPriorityBusy(int)     0x0000a39f   Thumb Code    10  goommemorymonitor.o(.text)
+    CMemoryMonitor::SetPriorityNormal(int)   0x0000a3a9   Thumb Code    10  goommemorymonitor.o(.text)
+    CMemoryMonitor::SetPriorityHigh(int)     0x0000a3b3   Thumb Code    10  goommemorymonitor.o(.text)
+    CMemoryMonitor::DoPostponedMemoryGood()  0x0000a3bd   Thumb Code    28  goommemorymonitor.o(.text)
+    CMemoryMonitorServer::ConstructL()       0x0000a3e1   Thumb Code    42  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::CMemoryMonitorServer(CMemoryMonitor&) 0x0000a40b   Thumb Code    20  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::CMemoryMonitorServer__sub_object(CMemoryMonitor&) 0x0000a40b   Thumb Code     0  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::NewL(CMemoryMonitor&) 0x0000a41f   Thumb Code    62  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::~CMemoryMonitorServer() 0x0000a45d   Thumb Code     8  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::~CMemoryMonitorServer__sub_object() 0x0000a45d   Thumb Code     0  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::~CMemoryMonitorServer__deallocating() 0x0000a465   Thumb Code    16  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::Monitor()          0x0000a475   Thumb Code     4  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::CloseAppsFinished(int, int) 0x0000a479   Thumb Code    38  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::NewSessionL(const TVersion&, const RMessage2&) const 0x0000a49f   Thumb Code    14  goommemorymonitorserver.o(.text)
+    CMemoryMonitorServer::RunError(int)      0x0000a4ad   Thumb Code    20  goommemorymonitorserver.o(.text)
+    CMemoryMonitorSession::CMemoryMonitorSession() 0x0000a4cd   Thumb Code    16  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::CMemoryMonitorSession__sub_object() 0x0000a4cd   Thumb Code     0  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::CreateL()         0x0000a4dd   Thumb Code     2  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::Server()          0x0000a4df   Thumb Code     4  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::CloseAppsFinished(int, int) 0x0000a4e3   Thumb Code    76  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::~CMemoryMonitorSession() 0x0000a52f   Thumb Code    44  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::~CMemoryMonitorSession__sub_object() 0x0000a52f   Thumb Code     0  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::~CMemoryMonitorSession__deallocating() 0x0000a55b   Thumb Code    16  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::Monitor()         0x0000a56b   Thumb Code    10  goommemorymonitorsession.o(.text)
+    CMemoryMonitorSession::ServiceL(const RMessage2&) 0x0000a575   Thumb Code   442  goommemorymonitorsession.o(.text)
+    GOOMWatcherThreadFunction(void*)         0x0000a739   Thumb Code   208  goommonitor.o(.text)
+    CreateGOOMWatcherThreadL()               0x0000a809   Thumb Code    90  goommonitor.o(.text)
+    PanicClient(const RMessagePtr2&, TGOomMonitorClientPanic) 0x0000a863   Thumb Code    14  goommonitor.o(.text)
+    SetGMemoryMonitorTls(CMemoryMonitor*)    0x0000a8f5   Thumb Code     8  goommonitorplugin.o(.text)
+    MemoryMonitorTls()                       0x0000a8fd   Thumb Code     8  goommonitorplugin.o(.text)
+    GOomMonitorPluginPanic(TGOomMonitorPluginPanic) 0x0000a905   Thumb Code    12  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::CGOomMonitorPluginBase__sub_object() 0x0000a911   Thumb Code    56  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::~CGOomMonitorPluginBase() 0x0000a949   Thumb Code     0  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::~CGOomMonitorPluginBase__sub_object() 0x0000a949   Thumb Code     8  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::~CGOomMonitorPluginBase__deallocating() 0x0000a951   Thumb Code    16  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::ConstructL()     0x0000a961   Thumb Code     2  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::FsSession()      0x0000a963   Thumb Code     6  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::WsSession()      0x0000a969   Thumb Code     6  goommonitorplugin.o(.text)
+    CGOomMonitorPluginBase::ExtensionInterface(TUid, void*&) 0x0000a96f   Thumb Code     2  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::CAppGOomMonitorPlugin(TUid) 0x0000a971   Thumb Code    16  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::CAppGOomMonitorPlugin__sub_object(TUid) 0x0000a971   Thumb Code     0  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::NewL(TUid)        0x0000a981   Thumb Code    18  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::SendMessageToApp(int) 0x0000a993   Thumb Code    80  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::FreeRam(int)      0x0000a9e3   Thumb Code     4  goommonitorplugin.o(.text)
+    CAppGOomMonitorPlugin::MemoryGood()      0x0000a9e7   Thumb Code     6  goommonitorplugin.o(.text)
+    RGOomMonitorSession::Connect()           0x0000a9fd   Thumb Code    60  goommonitorsession.o(.text)
+    RGOomMonitorSession::IsConnected()       0x0000aa39   Thumb Code     8  goommonitorsession.o(.text)
+    RGOomMonitorSession::RequestFreeMemory(int) 0x0000aa41   Thumb Code    34  goommonitorsession.o(.text)
+    RGOomMonitorSession::RequestFreeMemory(int, TRequestStatus&) 0x0000aa63   Thumb Code    42  goommonitorsession.o(.text)
+    RGOomMonitorSession::RequestOptionalRam(int, int, int, int&) 0x0000aa8d   Thumb Code    48  goommonitorsession.o(.text)
+    RGOomMonitorSession::RequestOptionalRam(int, int, int, TRequestStatus&) 0x0000aabd   Thumb Code    46  goommonitorsession.o(.text)
+    RGOomMonitorSession::CancelRequestFreeMemory() 0x0000aaeb   Thumb Code    26  goommonitorsession.o(.text)
+    RGOomMonitorSession::ThisAppIsNotExiting(int) 0x0000ab05   Thumb Code    28  goommonitorsession.o(.text)
+    RGOomMonitorSession::SetGOomPriority(RGOomMonitorSession::TGOomPriority) 0x0000ab21   Thumb Code    92  goommonitorsession.o(.text)
+    RGOomMonitorSession::ApplicationAboutToStart(const TUid&) 0x0000ab7d   Thumb Code    30  goommonitorsession.o(.text)
+    RGOomMonitorSession::UsesAbsoluteMemTargets(int) 0x0000ab9b   Thumb Code    28  goommonitorsession.o(.text)
+    RGOomMonitorSession::Connect(TRequestStatus&) 0x0000abb7   Thumb Code    54  goommonitorsession.o(.text)
+    RGOomMonitorSession::AppAboutToStart(TRequestStatus&, const TUid&) 0x0000abed   Thumb Code    32  goommonitorsession.o(.text)
+    GOomMonitorPanic(TGOomMonitorPanic)      0x0000ac11   Thumb Code    12  goompanic.o(.text)
+    GOomConfigParserPanic(int)               0x0000ac1d   Thumb Code    14  goompanic.o(.text)
+    CGOomPluginWaiter::CGOomPluginWaiter(int, CGOomRunPlugin&) 0x0000ac31   Thumb Code    32  goompluginwaiter.o(.text)
+    CGOomPluginWaiter::CGOomPluginWaiter__sub_object(int, CGOomRunPlugin&) 0x0000ac31   Thumb Code     0  goompluginwaiter.o(.text)
+    CGOomPluginWaiter::NewL(int, CGOomRunPlugin&) 0x0000ac51   Thumb Code    40  goompluginwaiter.o(.text)
+    CGOomPluginWaiter::Start()               0x0000ac79   Thumb Code    18  goompluginwaiter.o(.text)
+    CGOomPluginWaiter::RunL()                0x0000ac8b   Thumb Code    12  goompluginwaiter.o(.text)
+    CGOomRunPlugin::ConstructL(CGOomRunPluginConfig&) 0x0000ac9d   Thumb Code    30  goomrunplugin.o(.text)
+    CGOomRunPlugin::CGOomRunPlugin(unsigned, CGOomRunPluginConfig&, MGOomActionObserver&, CGOomMonitorPlugin&) 0x0000acbb   Thumb Code    26  goomrunplugin.o(.text)
+    CGOomRunPlugin::CGOomRunPlugin__sub_object(unsigned, CGOomRunPluginConfig&, MGOomActionObserver&, CGOomMonitorPlugin&) 0x0000acbb   Thumb Code     0  goomrunplugin.o(.text)
+    CGOomRunPlugin::NewL(unsigned, CGOomRunPluginConfig&, MGOomActionObserver&, CGOomMonitorPlugin&) 0x0000acd5   Thumb Code    50  goomrunplugin.o(.text)
+    CGOomRunPlugin::~CGOomRunPlugin()        0x0000ad07   Thumb Code    28  goomrunplugin.o(.text)
+    CGOomRunPlugin::~CGOomRunPlugin__sub_object() 0x0000ad07   Thumb Code     0  goomrunplugin.o(.text)
+    CGOomRunPlugin::~CGOomRunPlugin__deallocating() 0x0000ad23   Thumb Code    16  goomrunplugin.o(.text)
+    CGOomRunPlugin::FreeMemory(int)          0x0000ad33   Thumb Code    56  goomrunplugin.o(.text)
+    CGOomRunPlugin::MemoryGood()             0x0000ad6b   Thumb Code    24  goomrunplugin.o(.text)
+    CGOomRunPluginConfig::CGOomRunPluginConfig(unsigned, TGOomPluginType) 0x0000ad89   Thumb Code    24  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::CGOomRunPluginConfig__sub_object(unsigned, TGOomPluginType) 0x0000ad89   Thumb Code     0  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::NewL(unsigned, TGOomPluginType) 0x0000ada1   Thumb Code    22  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::CalculatePluginPriority(const CGOomWindowGroupList&) 0x0000adb7   Thumb Code    26  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::~CGOomRunPluginConfig() 0x0000add1   Thumb Code     8  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::~CGOomRunPluginConfig__sub_object() 0x0000add1   Thumb Code     0  goomrunpluginconfig.o(.text)
+    CGOomRunPluginConfig::~CGOomRunPluginConfig__deallocating() 0x0000add9   Thumb Code    16  goomrunpluginconfig.o(.text)
+    CGOomWindowGroupList::ConstructL()       0x0000aded   Thumb Code    68  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::CGOomWindowGroupList(RWsSession&) 0x0000ae31   Thumb Code    82  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::CGOomWindowGroupList__sub_object(RWsSession&) 0x0000ae31   Thumb Code     0  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::NewL(RWsSession&)  0x0000ae83   Thumb Code    36  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::TGOomWindowGroupProperties::TGOomWindowGroupProperties() 0x0000aea7   Thumb Code     8  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::TGOomWindowGroupProperties::TGOomWindowGroupProperties__sub_object() 0x0000aea7   Thumb Code     0  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::AppId(int, int) const 0x0000aeaf   Thumb Code   166  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::RemovePropertiesForClosedWindowsL() 0x0000af55   Thumb Code   134  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::CollapseWindowGroupTree() 0x0000afdb   Thumb Code   132  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::RefreshL()         0x0000b05f   Thumb Code   564  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::Refresh()          0x0000b293   Thumb Code    48  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::IdleTime(int) const 0x0000b2c3   Thumb Code    78  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::~CGOomWindowGroupList() 0x0000b311   Thumb Code    60  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::~CGOomWindowGroupList__sub_object() 0x0000b311   Thumb Code     0  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::~CGOomWindowGroupList__deallocating() 0x0000b34d   Thumb Code    16  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::FindParentIdL(int) 0x0000b35d   Thumb Code   152  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::SetPriorityBusy(int) 0x0000b3f5   Thumb Code    88  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::SetPriorityNormal(int) 0x0000b44d   Thumb Code    88  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::SetPriorityHigh(int) 0x0000b4a5   Thumb Code    88  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::IsBusy(int)        0x0000b4fd   Thumb Code    60  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::IsDynamicHighPriority(int) 0x0000b539   Thumb Code    60  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::WgName() const     0x0000b575   Thumb Code     6  goomwindowgrouplist.o(.text)
+    CGOomWindowGroupList::GetIndexFromAppId(unsigned) const 0x0000b57b   Thumb Code    46  goomwindowgrouplist.o(.text)
+    CWservEventReceiver::CWservEventReceiver(CMemoryMonitor&, RWsSession&) 0x0000b5ad   Thumb Code    46  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::CWservEventReceiver__sub_object(CMemoryMonitor&, RWsSession&) 0x0000b5ad   Thumb Code     0  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::~CWservEventReceiver() 0x0000b5db   Thumb Code    30  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::~CWservEventReceiver__sub_object() 0x0000b5db   Thumb Code     0  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::~CWservEventReceiver__deallocating() 0x0000b5f9   Thumb Code    16  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::Queue()             0x0000b609   Thumb Code    20  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::ConstructL()        0x0000b61d   Thumb Code    62  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::DoCancel()          0x0000b65b   Thumb Code    10  goomwserveventreceiver.o(.text)
+    CWservEventReceiver::RunL()              0x0000b665   Thumb Code   106  goomwserveventreceiver.o(.text)
+    __ARM_switch8                            0x0000b6dc   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000b6dc   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000b6f4   ARM Code      56  uc_dll.o(.text)
+    Dll::SetTls(void*)                       0x0000b731   Thumb Code    16  up_dll_tls.o(.text)
+    Dll::Tls()                               0x0000b741   Thumb Code    12  up_dll_tls.o(.text)
+    Dll::FreeTls()                           0x0000b74d   Thumb Code    10  up_dll_tls.o(.text)
+    __DLL_Export_Table__                     0x0000b75c   ARM Code       4  dllexp.o(.text)
+    CGOomConfig::CGOomConfig()               0x0000b8a1   Thumb Code    84  goomconfig.o(i._ZN11CGOomConfigC1Ev)
+    CGOomConfig::CGOomConfig__sub_object()   0x0000b8a1   Thumb Code     0  goomconfig.o(i._ZN11CGOomConfigC1Ev)
+    CGOomCloseApp::IsRunning()               0x0000b913   Thumb Code     4  goomcloseapp.o(i._ZN13CGOomCloseApp9IsRunningEv)
+    CGOomRunPlugin::IsRunning()              0x0000b917   Thumb Code    10  goomrunplugin.o(i._ZN14CGOomRunPlugin9IsRunningEv)
+    CMemoryMonitor::SessionInCriticalAllocation(int) 0x0000b921   Thumb Code    38  goommemorymonitorsession.o(i._ZN14CMemoryMonitor27SessionInCriticalAllocationEi)
+    CGOomActionList::ClientId()              0x0000b947   Thumb Code     6  goomactionlist.o(i._ZN15CGOomActionList8ClientIdEv)
+    CGOomPluginList<CGOomMonitorPlugin>::~CGOomPluginList__deallocating() 0x0000b94d   Thumb Code    16  goomactionlist.o(i._ZN15CGOomPluginListI18CGOomMonitorPluginED0Ev)
+    CSimpleScheduler::~CSimpleScheduler__deallocating() 0x0000b95d   Thumb Code    16  goommonitor.o(i._ZN16CSimpleSchedulerD0Ev)
+    CSimpleScheduler::~CSimpleScheduler()    0x0000b96d   Thumb Code     8  goommonitor.o(i._ZN16CSimpleSchedulerD1Ev)
+    CSimpleScheduler::~CSimpleScheduler__sub_object() 0x0000b96d   Thumb Code     0  goommonitor.o(i._ZN16CSimpleSchedulerD1Ev)
+    CGOomConfigParser::~CGOomConfigParser__deallocating() 0x0000b975   Thumb Code    16  goomconfigparser.o(i._ZN17CGOomConfigParserD0Ev)
+    CGOomConfigParser::~CGOomConfigParser()  0x0000b985   Thumb Code     8  goomconfigparser.o(i._ZN17CGOomConfigParserD1Ev)
+    CGOomConfigParser::~CGOomConfigParser__sub_object() 0x0000b985   Thumb Code     0  goomconfigparser.o(i._ZN17CGOomConfigParserD1Ev)
+    CGOomPluginWaiter::~CGOomPluginWaiter__deallocating() 0x0000b98d   Thumb Code    16  goompluginwaiter.o(i._ZN17CGOomPluginWaiterD0Ev)
+    CGOomPluginWaiter::~CGOomPluginWaiter()  0x0000b99d   Thumb Code     8  goompluginwaiter.o(i._ZN17CGOomPluginWaiterD1Ev)
+    CGOomPluginWaiter::~CGOomPluginWaiter__sub_object() 0x0000b99d   Thumb Code     0  goompluginwaiter.o(i._ZN17CGOomPluginWaiterD1Ev)
+    CGOomAppCloseTimer::~CGOomAppCloseTimer__deallocating() 0x0000b9a5   Thumb Code    16  goomappclosetimer.o(i._ZN18CGOomAppCloseTimerD0Ev)
+    CGOomAppCloseTimer::~CGOomAppCloseTimer() 0x0000b9b5   Thumb Code     8  goomappclosetimer.o(i._ZN18CGOomAppCloseTimerD1Ev)
+    CGOomAppCloseTimer::~CGOomAppCloseTimer__sub_object() 0x0000b9b5   Thumb Code     0  goomappclosetimer.o(i._ZN18CGOomAppCloseTimerD1Ev)
+    CGOomForegroundRule::~CGOomForegroundRule__deallocating() 0x0000b9bd   Thumb Code    16  goomforegroundrule.o(i._ZN19CGOomForegroundRuleD0Ev)
+    CGOomForegroundRule::~CGOomForegroundRule() 0x0000b9cd   Thumb Code     8  goomforegroundrule.o(i._ZN19CGOomForegroundRuleD1Ev)
+    CGOomForegroundRule::~CGOomForegroundRule__sub_object() 0x0000b9cd   Thumb Code     0  goomforegroundrule.o(i._ZN19CGOomForegroundRuleD1Ev)
+    CAppGOomMonitorPlugin::~CAppGOomMonitorPlugin__deallocating() 0x0000b9d5   Thumb Code    16  goommonitorplugin.o(i._ZN21CAppGOomMonitorPluginD0Ev)
+    CAppGOomMonitorPlugin::~CAppGOomMonitorPlugin() 0x0000b9e5   Thumb Code     8  goommonitorplugin.o(i._ZN21CAppGOomMonitorPluginD1Ev)
+    CAppGOomMonitorPlugin::~CAppGOomMonitorPlugin__sub_object() 0x0000b9e5   Thumb Code     0  goommonitorplugin.o(i._ZN21CAppGOomMonitorPluginD1Ev)
+    CGoomThresholdCrossed::SetThreshold(int) 0x0000b9ed   Thumb Code    16  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed12SetThresholdEi)
+    CGoomThresholdCrossed::ResetThresholds() 0x0000b9fd   Thumb Code    24  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed15ResetThresholdsEv)
+    CGoomThresholdCrossed::StartRequestEvents() 0x0000ba15   Thumb Code   196  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed18StartRequestEventsEv)
+    CGoomThresholdCrossed::RequestNotifications(int) 0x0000bb21   Thumb Code    52  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed20RequestNotificationsEi)
+    CGoomThresholdCrossed::RunL()            0x0000bb59   Thumb Code    66  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed4RunLEv)
+    CGoomThresholdCrossed::Stop()            0x0000bba3   Thumb Code    30  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed4StopEv)
+    CGoomThresholdCrossed::Trigger(int)      0x0000bbc1   Thumb Code   110  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed7TriggerEi)
+    CGoomThresholdCrossed::Continue()        0x0000bc3d   Thumb Code    24  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed8ContinueEv)
+    CGoomThresholdCrossed::DoCancel()        0x0000bc55   Thumb Code    12  goommemorymonitor.o(i._ZN21CGoomThresholdCrossed8DoCancelEv)
+    CGoomThresholdCrossed::CGoomThresholdCrossed(CMemoryMonitor&, unsigned, int) 0x0000bc61   Thumb Code   162  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji)
+    CGoomThresholdCrossed::CGoomThresholdCrossed__sub_object(CMemoryMonitor&, unsigned, int) 0x0000bc61   Thumb Code     0  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedC1ER14CMemoryMonitorji)
+    CGoomThresholdCrossed::~CGoomThresholdCrossed__deallocating() 0x0000bd1b   Thumb Code    16  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD0Ev)
+    CGoomThresholdCrossed::~CGoomThresholdCrossed() 0x0000bd2d   Thumb Code    48  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD1Ev)
+    CGoomThresholdCrossed::~CGoomThresholdCrossed__sub_object() 0x0000bd2d   Thumb Code     0  goommemorymonitor.o(i._ZN21CGoomThresholdCrossedD1Ev)
+    CBase::operator new(unsigned)            0x0000bd6b   Thumb Code     8  goommonitor.o(i._ZN5CBasenwEj)
+    TLex8::TLex8(const TDesC8&)              0x0000bd73   Thumb Code    16  goomconfigparser.o(i._ZN5TLex8C1ERK6TDesC8)
+    TLex8::TLex8__sub_object(const TDesC8&)  0x0000bd73   Thumb Code     0  goomconfigparser.o(i._ZN5TLex8C1ERK6TDesC8)
+    RMessagePtr2::IsNull() const             0x0000bd83   Thumb Code    14  goommemorymonitorsession.o(i._ZNK12RMessagePtr26IsNullEv)
+    RSessionBase::SendReceive(int, const TIpcArgs&) const 0x0000bd91   Thumb Code     8  goommonitorsession.o(i._ZNK12RSessionBase11SendReceiveEiRK8TIpcArgs)
+    CSimpleScheduler::Error(int) const       0x0000bd99   Thumb Code     2  goommonitor.o(i._ZNK16CSimpleScheduler5ErrorEi)
+    CGOomIdleTimeRule::Priority() const      0x0000bd9b   Thumb Code     4  goomIdletimerule.o(i._ZNK17CGOomIdleTimeRule8PriorityEv)
+    CGOomForegroundRule::Priority() const    0x0000bd9f   Thumb Code     4  goomforegroundrule.o(i._ZNK19CGOomForegroundRule8PriorityEv)
+    CGOomWindowGroupList::Count() const      0x0000bda3   Thumb Code    10  goomactionlist.o(i._ZNK20CGOomWindowGroupList5CountEv)
+    TDesC8::operator ==(const TDesC8&) const 0x0000bdad   Thumb Code    18  goomconfigparser.o(i._ZNK6TDesC8eqERKS_)
+    thunk{-4} to CGOomActionList::ClientId() 0x0000bdbf   Thumb Code     6  goomactionlist.o(i._ZThn4_N15CGOomActionList8ClientIdEv)
+    thunk{-4} to CGOomIdleTimeRule::Priority() const 0x0000bdc5   Thumb Code     4  goomIdletimerule.o(i._ZThn4_NK17CGOomIdleTimeRule8PriorityEv)
+    thunk{-4} to CGOomForegroundRule::Priority() const 0x0000bdc9   Thumb Code     4  goomforegroundrule.o(i._ZThn4_NK19CGOomForegroundRule8PriorityEv)
+    operator delete (void*, void*)           0x0000bdcd   Thumb Code     2  goomconfigparser.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000bdcf   Thumb Code     4  goomconfigparser.o(i._ZnwjPv)
+    CleanupClose<RPointerArray<CImplementationInformation>>::Close(void*) 0x0000bdd3   Thumb Code     8  goomactionlist.o(t._ZN12CleanupCloseI13RPointerArrayI26CImplementationInformationEE5CloseEPv)
+    CleanupClose<RFile>::Close(void*)        0x0000bddb   Thumb Code     8  goomconfigparser.o(t._ZN12CleanupCloseI5RFileE5CloseEPv)
+    CGOomPluginList<CGOomMonitorPlugin>::ConstructL(int) 0x0000bde5   Thumb Code   122  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE10ConstructLEi)
+    CGOomPluginList<CGOomMonitorPlugin>::Uid(int) 0x0000be65   Thumb Code    12  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE3UidEi)
+    CGOomPluginList<CGOomMonitorPlugin>::Count() 0x0000be71   Thumb Code    10  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginE5CountEv)
+    CGOomPluginList<CGOomMonitorPlugin>::~CGOomPluginList() 0x0000be7d   Thumb Code    60  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev)
+    CGOomPluginList<CGOomMonitorPlugin>::~CGOomPluginList__sub_object() 0x0000be7d   Thumb Code     0  goomactionlist.o(t._ZN15CGOomPluginListI18CGOomMonitorPluginED1Ev)
+    RArray<TActionRef>::operator [](int)     0x0000bec7   Thumb Code     8  goomactionlist.o(t._ZN6RArrayI10TActionRefEixEi)
+    RArray<RWsSession::TWindowGroupChainInfo>::ReserveL(int) 0x0000becf   Thumb Code    12  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEE8ReserveLEi)
+    RArray<RWsSession::TWindowGroupChainInfo>::RArray() 0x0000bedb   Thumb Code    10  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEC1Ev)
+    RArray<RWsSession::TWindowGroupChainInfo>::RArray__sub_object() 0x0000bedb   Thumb Code     0  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEC1Ev)
+    RArray<RWsSession::TWindowGroupChainInfo>::operator [](int) 0x0000bee5   Thumb Code     8  goomwindowgrouplist.o(t._ZN6RArrayIN10RWsSession21TWindowGroupChainInfoEEixEi)
+    RArray<CGOomPluginList<CGOomMonitorPlugin>::TPlugin>::operator [](int) 0x0000beed   Thumb Code     8  goomactionlist.o(t._ZN6RArrayIN15CGOomPluginListI18CGOomMonitorPluginE7TPluginEEixEi)
+    RHashMap<int, CGOomWindowGroupList::TGOomWindowGroupProperties>::Find(const int&) 0x0000bef5   Thumb Code    10  goomwindowgrouplist.o(t._ZN8RHashMapIiN20CGOomWindowGroupList26TGOomWindowGroupPropertiesEE4FindERKi)
+    RHashMap<long, CGOomRunPluginConfig*>::Find(const long&) 0x0000beff   Thumb Code    10  goomconfig.o(t._ZN8RHashMapIlP20CGOomRunPluginConfigE4FindERKl)
+    RHashMap<long, CGOomApplicationConfig*>::Find(const long&) 0x0000bf09   Thumb Code    10  goomconfig.o(t._ZN8RHashMapIlP22CGOomApplicationConfigE4FindERKl)
+    RHashMap<long, CGOomApplicationConfig*>::InsertL(const long&, CGOomApplicationConfig*const &) 0x0000bf13   Thumb Code    22  goomconfig.o(t._ZN8RHashMapIlP22CGOomApplicationConfigE7InsertLERKlRKS1_)
+    RArray<RWsSession::TWindowGroupChainInfo>::Count() const 0x0000bf29   Thumb Code     8  goomwindowgrouplist.o(t._ZNK6RArrayIN10RWsSession21TWindowGroupChainInfoEE5CountEv)
+    typeinfo for CGOomAction                 0x0000ca78   Data          12  goomaction.o(.constdata__ZTI11CGOomAction)
+    typeinfo for CGOomConfig                 0x0000ca84   Data          12  goomconfig.o(.constdata__ZTI11CGOomConfig)
+    typeinfo for CGOomCloseApp               0x0000ca90   Data          12  goomcloseapp.o(.constdata__ZTI13CGOomCloseApp)
+    typeinfo for CGOomRunPlugin              0x0000ca9c   Data          12  goomrunplugin.o(.constdata__ZTI14CGOomRunPlugin)
+    typeinfo for CMemoryMonitor              0x0000caa8   Data          12  goommemorymonitor.o(.constdata__ZTI14CMemoryMonitor)
+    typeinfo for CGOomActionList             0x0000cab4   Data          32  goomactionlist.o(.constdata__ZTI15CGOomActionList)
+    typeinfo for CGOomPluginList<CGOomMonitorPlugin> 0x0000cad4   Data          12  goomactionlist.o(.constdata__ZTI15CGOomPluginListI18CGOomMonitorPluginE)
+    typeinfo for MGOomRuleConfig             0x0000cae0   Data           8  goomIdletimerule.o(.constdata__ZTI15MGOomRuleConfig)
+    typeinfo for CSimpleScheduler            0x0000cae8   Data          12  goommonitor.o(.constdata__ZTI16CSimpleScheduler)
+    typeinfo for CGOomActionConfig           0x0000caf4   Data          12  goomactionconfig.o(.constdata__ZTI17CGOomActionConfig)
+    typeinfo for CGOomConfigParser           0x0000cb00   Data          32  goomconfigparser.o(.constdata__ZTI17CGOomConfigParser)
+    typeinfo for CGOomGlobalConfig           0x0000cb20   Data          12  goomglobalconfig.o(.constdata__ZTI17CGOomGlobalConfig)
+    typeinfo for CGOomIdleTimeRule           0x0000cb2c   Data          32  goomIdletimerule.o(.constdata__ZTI17CGOomIdleTimeRule)
+    typeinfo for CGOomPluginWaiter           0x0000cb4c   Data          12  goompluginwaiter.o(.constdata__ZTI17CGOomPluginWaiter)
+    typeinfo for CGOomAppCloseTimer          0x0000cb58   Data          12  goomappclosetimer.o(.constdata__ZTI18CGOomAppCloseTimer)
+    typeinfo for CGOomCloseAppConfig         0x0000cb64   Data          12  goomcloseappconfig.o(.constdata__ZTI19CGOomCloseAppConfig)
+    typeinfo for CGOomForegroundRule         0x0000cb70   Data          32  goomforegroundrule.o(.constdata__ZTI19CGOomForegroundRule)
+    typeinfo for CWservEventReceiver         0x0000cb90   Data          12  goomwserveventreceiver.o(.constdata__ZTI19CWservEventReceiver)
+    typeinfo for MGOomActionObserver         0x0000cb9c   Data           8  goomactionlist.o(.constdata__ZTI19MGOomActionObserver)
+    typeinfo for CGOomAppCloseWatcher        0x0000cba4   Data          12  goomappclosewatcher.o(.constdata__ZTI20CGOomAppCloseWatcher)
+    typeinfo for CGOomRunPluginConfig        0x0000cbb0   Data          12  goomrunpluginconfig.o(.constdata__ZTI20CGOomRunPluginConfig)
+    typeinfo for CGOomWindowGroupList        0x0000cbbc   Data          12  goomwindowgrouplist.o(.constdata__ZTI20CGOomWindowGroupList)
+    typeinfo for CMemoryMonitorServer        0x0000cbc8   Data          12  goommemorymonitorserver.o(.constdata__ZTI20CMemoryMonitorServer)
+    typeinfo for CAppGOomMonitorPlugin       0x0000cbd4   Data          12  goommonitorplugin.o(.constdata__ZTI21CAppGOomMonitorPlugin)
+    typeinfo for CGoomThresholdCrossed       0x0000cbe0   Data          12  goommemorymonitor.o(.constdata__ZTI21CGoomThresholdCrossed)
+    typeinfo for CMemoryMonitorSession       0x0000cbec   Data          12  goommemorymonitorsession.o(.constdata__ZTI21CMemoryMonitorSession)
+    typeinfo for CGOomApplicationConfig      0x0000cbf8   Data          12  goomapplicationconfig.o(.constdata__ZTI22CGOomApplicationConfig)
+    typeinfo for CGOomMonitorPluginBase      0x0000cc04   Data          12  goommonitorplugin.o(.constdata__ZTI22CGOomMonitorPluginBase)
+    typeinfo for Xml::MContentHandler        0x0000cc10   Data           8  goomconfigparser.o(.constdata__ZTIN3Xml15MContentHandlerE)
+    typeinfo name for CGOomAction            0x0000cc18   Data          14  goomaction.o(.constdata__ZTS11CGOomAction)
+    typeinfo name for CGOomConfig            0x0000cc26   Data          14  goomconfig.o(.constdata__ZTS11CGOomConfig)
+    typeinfo name for CGOomCloseApp          0x0000cc34   Data          16  goomcloseapp.o(.constdata__ZTS13CGOomCloseApp)
+    typeinfo name for CGOomRunPlugin         0x0000cc44   Data          17  goomrunplugin.o(.constdata__ZTS14CGOomRunPlugin)
+    typeinfo name for CMemoryMonitor         0x0000cc55   Data          17  goommemorymonitor.o(.constdata__ZTS14CMemoryMonitor)
+    typeinfo name for CGOomActionList        0x0000cc66   Data          18  goomactionlist.o(.constdata__ZTS15CGOomActionList)
+    typeinfo name for CGOomPluginList<CGOomMonitorPlugin> 0x0000cc78   Data          40  goomactionlist.o(.constdata__ZTS15CGOomPluginListI18CGOomMonitorPluginE)
+    typeinfo name for MGOomRuleConfig        0x0000cca0   Data          18  goomIdletimerule.o(.constdata__ZTS15MGOomRuleConfig)
+    typeinfo name for CSimpleScheduler       0x0000ccb2   Data          19  goommonitor.o(.constdata__ZTS16CSimpleScheduler)
+    typeinfo name for CGOomActionConfig      0x0000ccc5   Data          20  goomactionconfig.o(.constdata__ZTS17CGOomActionConfig)
+    typeinfo name for CGOomConfigParser      0x0000ccd9   Data          20  goomconfigparser.o(.constdata__ZTS17CGOomConfigParser)
+    typeinfo name for CGOomGlobalConfig      0x0000cced   Data          20  goomglobalconfig.o(.constdata__ZTS17CGOomGlobalConfig)
+    typeinfo name for CGOomIdleTimeRule      0x0000cd01   Data          20  goomIdletimerule.o(.constdata__ZTS17CGOomIdleTimeRule)
+    typeinfo name for CGOomPluginWaiter      0x0000cd15   Data          20  goompluginwaiter.o(.constdata__ZTS17CGOomPluginWaiter)
+    typeinfo name for CGOomAppCloseTimer     0x0000cd29   Data          21  goomappclosetimer.o(.constdata__ZTS18CGOomAppCloseTimer)
+    typeinfo name for CGOomCloseAppConfig    0x0000cd3e   Data          22  goomcloseappconfig.o(.constdata__ZTS19CGOomCloseAppConfig)
+    typeinfo name for CGOomForegroundRule    0x0000cd54   Data          22  goomforegroundrule.o(.constdata__ZTS19CGOomForegroundRule)
+    typeinfo name for CWservEventReceiver    0x0000cd6a   Data          22  goomwserveventreceiver.o(.constdata__ZTS19CWservEventReceiver)
+    typeinfo name for MGOomActionObserver    0x0000cd80   Data          22  goomactionlist.o(.constdata__ZTS19MGOomActionObserver)
+    typeinfo name for CGOomAppCloseWatcher   0x0000cd96   Data          23  goomappclosewatcher.o(.constdata__ZTS20CGOomAppCloseWatcher)
+    typeinfo name for CGOomRunPluginConfig   0x0000cdad   Data          23  goomrunpluginconfig.o(.constdata__ZTS20CGOomRunPluginConfig)
+    typeinfo name for CGOomWindowGroupList   0x0000cdc4   Data          23  goomwindowgrouplist.o(.constdata__ZTS20CGOomWindowGroupList)
+    typeinfo name for CMemoryMonitorServer   0x0000cddb   Data          23  goommemorymonitorserver.o(.constdata__ZTS20CMemoryMonitorServer)
+    typeinfo name for CAppGOomMonitorPlugin  0x0000cdf2   Data          24  goommonitorplugin.o(.constdata__ZTS21CAppGOomMonitorPlugin)
+    typeinfo name for CGoomThresholdCrossed  0x0000ce0a   Data          24  goommemorymonitor.o(.constdata__ZTS21CGoomThresholdCrossed)
+    typeinfo name for CMemoryMonitorSession  0x0000ce22   Data          24  goommemorymonitorsession.o(.constdata__ZTS21CMemoryMonitorSession)
+    typeinfo name for CGOomApplicationConfig 0x0000ce3a   Data          25  goomapplicationconfig.o(.constdata__ZTS22CGOomApplicationConfig)
+    typeinfo name for CGOomMonitorPluginBase 0x0000ce53   Data          25  goommonitorplugin.o(.constdata__ZTS22CGOomMonitorPluginBase)
+    typeinfo name for Xml::MContentHandler   0x0000ce6c   Data          24  goomconfigparser.o(.constdata__ZTSN3Xml15MContentHandlerE)
+    vtable for CGOomAction                   0x0000ce84   Data          28  goomaction.o(.constdata__ZTV11CGOomAction)
+    vtable for CGOomConfig                   0x0000cea0   Data          20  goomconfig.o(.constdata__ZTV11CGOomConfig)
+    vtable for CGOomCloseApp                 0x0000ceb4   Data          28  goomcloseapp.o(.constdata__ZTV13CGOomCloseApp)
+    vtable for CGOomRunPlugin                0x0000ced0   Data          28  goomrunplugin.o(.constdata__ZTV14CGOomRunPlugin)
+    vtable for CMemoryMonitor                0x0000ceec   Data          20  goommemorymonitor.o(.constdata__ZTV14CMemoryMonitor)
+    vtable for CGOomActionList               0x0000cf00   Data          44  goomactionlist.o(.constdata__ZTV15CGOomActionList)
+    vtable for CGOomPluginList<CGOomMonitorPlugin> 0x0000cf2c   Data          20  goomactionlist.o(.constdata__ZTV15CGOomPluginListI18CGOomMonitorPluginE)
+    vtable for CSimpleScheduler              0x0000cf40   Data          44  goommonitor.o(.constdata__ZTV16CSimpleScheduler)
+    vtable for CGOomActionConfig             0x0000cf6c   Data          20  goomactionconfig.o(.constdata__ZTV17CGOomActionConfig)
+    vtable for CGOomConfigParser             0x0000cf80   Data         124  goomconfigparser.o(.constdata__ZTV17CGOomConfigParser)
+    vtable for CGOomGlobalConfig             0x0000cffc   Data          20  goomglobalconfig.o(.constdata__ZTV17CGOomGlobalConfig)
+    vtable for CGOomIdleTimeRule             0x0000d010   Data          44  goomIdletimerule.o(.constdata__ZTV17CGOomIdleTimeRule)
+    vtable for CGOomPluginWaiter             0x0000d03c   Data          32  goompluginwaiter.o(.constdata__ZTV17CGOomPluginWaiter)
+    vtable for CGOomAppCloseTimer            0x0000d05c   Data          32  goomappclosetimer.o(.constdata__ZTV18CGOomAppCloseTimer)
+    vtable for CGOomCloseAppConfig           0x0000d07c   Data          20  goomcloseappconfig.o(.constdata__ZTV19CGOomCloseAppConfig)
+    vtable for CGOomForegroundRule           0x0000d090   Data          44  goomforegroundrule.o(.constdata__ZTV19CGOomForegroundRule)
+    vtable for CWservEventReceiver           0x0000d0bc   Data          32  goomwserveventreceiver.o(.constdata__ZTV19CWservEventReceiver)
+    vtable for CGOomAppCloseWatcher          0x0000d0dc   Data          32  goomappclosewatcher.o(.constdata__ZTV20CGOomAppCloseWatcher)
+    vtable for CGOomRunPluginConfig          0x0000d0fc   Data          20  goomrunpluginconfig.o(.constdata__ZTV20CGOomRunPluginConfig)
+    vtable for CGOomWindowGroupList          0x0000d110   Data          20  goomwindowgrouplist.o(.constdata__ZTV20CGOomWindowGroupList)
+    vtable for CMemoryMonitorServer          0x0000d124   Data          40  goommemorymonitorserver.o(.constdata__ZTV20CMemoryMonitorServer)
+    vtable for CAppGOomMonitorPlugin         0x0000d14c   Data          32  goommonitorplugin.o(.constdata__ZTV21CAppGOomMonitorPlugin)
+    vtable for CGoomThresholdCrossed         0x0000d16c   Data          32  goommemorymonitor.o(.constdata__ZTV21CGoomThresholdCrossed)
+    vtable for CMemoryMonitorSession         0x0000d18c   Data          40  goommemorymonitorsession.o(.constdata__ZTV21CMemoryMonitorSession)
+    vtable for CGOomApplicationConfig        0x0000d1b4   Data          20  goomapplicationconfig.o(.constdata__ZTV22CGOomApplicationConfig)
+    vtable for CGOomMonitorPluginBase        0x0000d1c8   Data          32  goommonitorplugin.o(.constdata__ZTV22CGOomMonitorPluginBase)
+    __ARM__ZN21CGoomThresholdCrossed18StartRequestEventsEv_anon0 0x0000d1e8   Data          20  goommemorymonitor.o(.constdata___ARM__ZN21CGoomThresholdCrossed18StartRequestEventsEv_anon0)
+    .ARM.exidx$$Base                         0x0000d1fc   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000d74c   Number         0  goomwindowgrouplist.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000d74c   Number         0  anon$$obj.o(linker$$defined$$symbols)
+

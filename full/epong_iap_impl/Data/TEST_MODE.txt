@@ -1,0 +1,3 @@
+[simulation]
+642613=simulated_payment_ok
+642614=simulated_payment_declined
